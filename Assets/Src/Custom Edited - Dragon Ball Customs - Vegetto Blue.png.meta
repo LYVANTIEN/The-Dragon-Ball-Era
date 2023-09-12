@@ -1,0 +1,1900 @@
+fileFormatVersion: 2
+guid: 71175c0bb887f374eaaae9e78e55199c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_0
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 498
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec948be0b63cd145b95e18c8d006a42
+      internalID: -499454195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_1
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 625
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1eaa55d043ec749a2f0bbf41de36f5
+      internalID: 1653582096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_2
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 625
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f753a6a059c91144b420c09fd7951a4
+      internalID: -1813788036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 498
+        width: 131
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b282b6dd2074545a50173ba543e3e8
+      internalID: -520202330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_4
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 568
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b402c85345d86344fbc4c6d5a0a72c27
+      internalID: -305646358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 498
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2ca9ecb13abef478531ba9a02e1033
+      internalID: 515196327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 498
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3669d8baab0be040b7bb69f1265e186
+      internalID: 2107570953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 498
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb54c544605fd48b18650faae0b548
+      internalID: 775974456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 498
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045f976d603f8104b8651673c62ab2c3
+      internalID: 761964205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 498
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f818a9d9ec2d094db02b17b559524c9
+      internalID: -154673267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 423
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71189322b5fc374298fb81f0be9f222
+      internalID: 202927342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 423
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e4029e8d20f6045b27d6e0c7090d27
+      internalID: -605587051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 423
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45b4af5b7c740242bbad9ddf8e09c1e
+      internalID: -243932425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 423
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3f581c630e1d645b90d76ca95ebff8
+      internalID: 1439514876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 422
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fda51c59f5bd0d43b86cdcbd48e2ab3
+      internalID: -1566456354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 423
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4e601678e437b499b6065ebbc52e44
+      internalID: 1023378776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_16
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 423
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4fa3e70f6b7c04e9f8265773415544
+      internalID: 1392858910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 423
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601c7beb7f30cf14c894e8494283d3a2
+      internalID: -1328076559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 435
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76cf6688e48e9c49af72f8e9d72b391
+      internalID: 1894738215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_19
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 437
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8c1b5f120063c469f473d2218feb04
+      internalID: 577859420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 351
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ee65ca4346c604796b6759eb0ae41b
+      internalID: 865357180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 351
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eb4d760874aea47bb2d5f259480b35
+      internalID: 192515436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 363
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c885db02f7c390341b405a645d0d754a
+      internalID: 999100779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 356
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2cd1e685ca6f9498aca9e1eeede540
+      internalID: -1897140623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 351
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce28a200450f4134eaf15d280f5eda63
+      internalID: -161157346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 351
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea3220d3fccf25429ff44f0d768fcd7
+      internalID: 1111636913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 351
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0404b1a358cf5624b9c48baf7e72283e
+      internalID: -1585219659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 351
+        width: 66
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbe81c019bcda14c91091956c786e13
+      internalID: -720551409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 351
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b301d136f70704ba6522da848aa258
+      internalID: 2091736852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_29
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 351
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97489271b477a0441b6f2a5c8261d392
+      internalID: -1597160493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_30
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 351
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d16bac3d4d00c428d5fd3e56941f49
+      internalID: -2099301175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 351
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81a6f587a449e4997a987404c7e551
+      internalID: 1265186465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_32
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 351
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd69a919d4eace1468bb5244ba7d6d46
+      internalID: 313362372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_33
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 351
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e601a35bc589cd04aa8f1e562c7f14a9
+      internalID: 1097154826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_34
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 381
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663a7d50acbc81845a55a8f265c1112b
+      internalID: -1294444117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_35
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 352
+        width: 6
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c2288280484594186cbe2f62eb18c8
+      internalID: 1235060495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_36
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 351
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366d0b0728c73dd4bb075b017bec66e3
+      internalID: 1565336965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_37
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 367
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcc79932cca90e41af450f3234f373f
+      internalID: -1433541868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_38
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 351
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3483fbbeb24dca247991dbf6f6aa53b8
+      internalID: 1425469088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_39
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 358
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdf66d5f5babcc4aa7aef323fb1278f
+      internalID: 128398918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_40
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 351
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37121e3b9f0536549b891ca26ab58c09
+      internalID: -1720971387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 275
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e674e67fd02882c42bc2d0653269bdea
+      internalID: -1888453462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 275
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4db921ed1043a41b172ce741428f54
+      internalID: -92221898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 275
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56957abdff7ded4f908dd492a249c7f
+      internalID: -2126682696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_44
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 275
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b8a852490d46d4097c12aa850157f3
+      internalID: -128212910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 277
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59302e17fccbc468ebae7b1aa071c7
+      internalID: 894497906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_46
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 275
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa5681e44c2a9342bf3edade45df77b
+      internalID: -409625683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_47
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 275
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ada1c3f7015394db8236f2940fce87
+      internalID: 98213892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 275
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda8f0e808bfdc74bb07e5ef9b3dced5
+      internalID: 97426274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_49
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 275
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955e588a30ccb2d44b48168b4a6f388f
+      internalID: 361248022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_50
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 275
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c4acdb5396da74ca4b26b3f67926ef
+      internalID: -495769322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_51
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 284
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598b074348212204096faf19d8920088
+      internalID: 1522892672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_52
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 275
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6136ea162337fe44dbbee45e61b0b156
+      internalID: -485823973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_53
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 275
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd641a6c8b40364f9e6cdde7a594651
+      internalID: 112913685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_54
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 275
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51829802c6f8d4642b43ded1650f9c6c
+      internalID: -969816263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_55
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 275
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b6c3700add2ed4cbd56b809e0b76ad
+      internalID: 1884460350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_56
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 289
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96734622c06aa584bb8d3a859e96fbfd
+      internalID: -957476145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_57
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 275
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976ad1d7a231b1439f6d5c2b440e793
+      internalID: -373479315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 197
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870bd5055275a4438451bdd8728b80f
+      internalID: -1144263515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_59
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 197
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85834e68d6d5fcd47b53cd22487e8a12
+      internalID: 1615311210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_60
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 197
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249f339533f65274b9a23b36c6fe5715
+      internalID: -938407014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bf97fbfab5cad498ca4764f1aa224a
+      internalID: 2011420434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_62
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 202
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33d62d617d910d43b807290a63347b6
+      internalID: 1049030847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_63
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 202
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d96ffb131f6ffa4e8ed98712c61c09b
+      internalID: 397535762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_64
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 197
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5aff0c1328a94b8da26938cc5f27f
+      internalID: 2092058935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_65
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 117
+        width: 87
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e9c7f930d13be48bb64e496dce4d9f
+      internalID: 444008179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 117
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532b5de4e31da284cb7ffd6afb139bb9
+      internalID: 1011476428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 117
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a049b40c4b1d384fae7e577213cc813
+      internalID: -812028600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_68
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 119
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134e62c349f36ad4daacff50e35cdb45
+      internalID: -2070862042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_69
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 117
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711d2de9daa356c4bae36bf966867c48
+      internalID: 444353607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_70
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 117
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3346b1440c69f48804586fe89de2f7
+      internalID: 1351437255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_71
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 25
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128c9f8f95a08434dae9f252b00f678c
+      internalID: -1960372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 25
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764f6cd43872b4740ad85eca2be167a1
+      internalID: 1836624810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_73
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 25
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2617eda15b0f143857909b8be6e74e
+      internalID: 425233244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 25
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9186b21647dab47b6e155641a08021
+      internalID: 464752429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_75
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 25
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a530f49c156ab2e4aa0216b4ea65dc19
+      internalID: -67964601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_76
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 25
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8fa2570b7f1e74487fc43df74b0fcf
+      internalID: -582729274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_77
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 43
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5081f5684fef2c947b0fe3f0489e3f93
+      internalID: -763356342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_78
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 321
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3c0bf1e0d8e4b448504b00cbbfdb51
+      internalID: -1807396626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Dragon Ball Customs - Vegetto Blue_79
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 25
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd006f7e41357134e96c6c33034453a4
+      internalID: 1499804525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_0: -499454195
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_1: 1653582096
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_10: 202927342
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_11: -605587051
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_12: -243932425
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_13: 1439514876
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_14: -1566456354
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_15: 1023378776
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_16: 1392858910
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_17: -1328076559
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_18: 1894738215
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_19: 577859420
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_2: -1813788036
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_20: 865357180
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_21: 192515436
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_22: 999100779
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_23: -1897140623
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_24: -161157346
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_25: 1111636913
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_26: -1585219659
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_27: -720551409
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_28: 2091736852
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_29: -1597160493
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_3: -520202330
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_30: -2099301175
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_31: 1265186465
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_32: 313362372
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_33: 1097154826
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_34: -1294444117
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_35: 1235060495
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_36: 1565336965
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_37: -1433541868
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_38: 1425469088
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_39: 128398918
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_4: -305646358
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_40: -1720971387
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_41: -1888453462
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_42: -92221898
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_43: -2126682696
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_44: -128212910
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_45: 894497906
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_46: -409625683
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_47: 98213892
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_48: 97426274
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_49: 361248022
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_5: 515196327
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_50: -495769322
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_51: 1522892672
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_52: -485823973
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_53: 112913685
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_54: -969816263
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_55: 1884460350
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_56: -957476145
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_57: -373479315
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_58: -1144263515
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_59: 1615311210
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_6: 2107570953
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_60: -938407014
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_61: 2011420434
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_62: 1049030847
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_63: 397535762
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_64: 2092058935
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_65: 444008179
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_66: 1011476428
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_67: -812028600
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_68: -2070862042
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_69: 444353607
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_7: 775974456
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_70: 1351437255
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_71: -1960372418
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_72: 1836624810
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_73: 425233244
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_74: 464752429
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_75: -67964601
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_76: -582729274
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_77: -763356342
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_78: -1807396626
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_79: 1499804525
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_8: 761964205
+      Custom Edited - Dragon Ball Customs - Vegetto Blue_9: -154673267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
