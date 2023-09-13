@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,11 +12,19 @@ public class SamuraiMove : MonoBehaviour
     public Animator anim;
     private AudioSource AttackAudio;
     public Transform Player;
+    //Hp va Mp
+    public HP_MP HPbox;
+    public HP_MP MPbox;
+    public float CurrentHP;
+    public float MaxHP = 100;
+    public float CurrentMP;
+    public float MaxMP = 100;
 
     public float speed = 5;
     public float leftright;
     public bool isFacingRight = true;
     public float flapchange;
+    public float dashchange;
     public bool canJump;
     public bool canDoubleJump;
 
@@ -35,7 +44,10 @@ public class SamuraiMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        CurrentHP = MaxHP;
+        CurrentMP = MaxMP;
+        HPbox.updateHP(CurrentHP, MaxHP);
+        MPbox.updateMP(CurrentMP, MaxMP);
     }
 
     // Update is called once per frame
@@ -64,50 +76,66 @@ public class SamuraiMove : MonoBehaviour
         /// Animation
         anim.SetFloat("Move", Mathf.Abs(leftright));
 
+
     }
     public void Attack()
     {
         if (Input.GetKeyDown(KeyCode.J) == true)
         {
-            SoundManager.instance.playSound(hitSound);
-            anim.SetTrigger("Attack");
+            float ManaUse = 5;
+            if (ManaUse <= CurrentMP)
+            {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                int skillDamage = 1;
+                SoundManager.instance.playSound(hitSound);
+                anim.SetTrigger("Attack");
+                AttackDamage(skillDamage);
+            }
 
         }
         if (Input.GetKeyDown(KeyCode.K) == true)
         {
-            SoundManager.instance.playSound(hitSound);
-            anim.SetTrigger("Attack2");
-
-        }
-        ///
-        if (TimeToAttack <= 0)
-        {
-            if (Input.GetKeyDown(KeyCode.I) == true)
+            float ManaUse = 8;
+            if (ManaUse <= CurrentMP)
             {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                int skillDamage = 2;
                 SoundManager.instance.playSound(hitSound);
-                anim.SetTrigger("Attack3");
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(AttackPos.position, attackRange, WhatIsEnemies);
-                for (int i = 0; i < enemiesToDamage.Length; i++)
-                {
-                    enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage);
-                }
+                anim.SetTrigger("Attack2");
+                AttackDamage(skillDamage);
             }
 
-            TimeToAttack = startTimeToAttack;
-
-
         }
-        else
+
+        if (Input.GetKeyDown(KeyCode.I) == true)
         {
-            TimeToAttack -= Time.deltaTime;
+            float ManaUse = 12;
+            if (ManaUse <= CurrentMP)
+            {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                int skillDamage = 3;
+                SoundManager.instance.playSound(hitSound);
+                anim.SetTrigger("Attack3");
+                AttackDamage(skillDamage);
+            }
         }
-
-
 
         if (Input.GetKeyDown(KeyCode.U) == true)
         {
-            anim.SetTrigger("SuperAttack");
-            SoundManager.instance.playSound(hitSound);
+            float ManaUse = 20;
+            if (ManaUse <= CurrentMP)
+            {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                int skillDamage = 4;
+                anim.SetTrigger("SuperAttack");
+                SoundManager.instance.playSound(hitSound);
+                AttackDamage(skillDamage);
+
+            }
 
         }
         if (Input.GetKeyDown(KeyCode.S) == true)
@@ -118,17 +146,21 @@ public class SamuraiMove : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.O) == true)
         {
-            // if (Input.GetKeyDown(KeyCode.O) == true)
-            // {
-            //     Player.position = new Vector3(Player.position.x, Player.position.y + 0.3f, Player.position.z);
-            // }
-            anim.SetBool("Manaup", true);
-
+            if (CurrentMP >= MaxHP)
+            {
+            }
+            else
+            {
+                CurrentMP += 0.015f;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                anim.SetBool("Manaup", true);
+            }
         }
         else
         {
             anim.SetBool("Manaup", false);
         }
+
 
     }
 
@@ -136,6 +168,18 @@ public class SamuraiMove : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(AttackPos.position, attackRange);
+    }
+    public void AttackDamage(int skillDamage)
+    {
+        /// <summary>
+        /// Dame nhan he so sat thuong skill
+        /// </summary>
+
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(AttackPos.position, attackRange, WhatIsEnemies);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
+        }
     }
 
     public void Jump()
