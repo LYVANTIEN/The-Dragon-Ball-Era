@@ -25,7 +25,7 @@ public class MapItem : MonoBehaviour
     {
         if (health <= 0)
         { 
-            yield return new WaitForSeconds(1.0f); // Wait for 1 second
+            yield return new WaitForSeconds(0.7f); // Wait for 1 second
             gameObject.SetActive(false);
         }
     }
