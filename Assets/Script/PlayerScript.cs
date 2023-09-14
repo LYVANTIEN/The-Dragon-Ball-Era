@@ -36,6 +36,7 @@ public class SamuraiMove : MonoBehaviour
     public float startTimeToAttack;
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
+    public LayerMask WhatIsMapItem;
     public float attackRangeX;
     public float attackRangeY;
     public int PlayerDamage;
@@ -174,6 +175,11 @@ public class SamuraiMove : MonoBehaviour
                 enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
             }
             // AttackDamage(skillDamage);
+            Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
+            for (int i = 0; i < MapItemToDamage.Length; i++)
+            {
+                MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(PlayerDamage * skillDamage);
+            }
         }
     }
 
@@ -192,12 +198,22 @@ public class SamuraiMove : MonoBehaviour
         /// <summary>
         /// Dame nhan he so sat thuong skill
         /// </summary>
+        /// 
 
         Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
         }
+
+        //
+        Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
+        for (int i = 0; i < MapItemToDamage.Length; i++)
+        {
+            MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(PlayerDamage * skillDamage);
+        }
+
+
     }
 
     public void Jump()
