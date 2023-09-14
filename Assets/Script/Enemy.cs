@@ -18,15 +18,22 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(health <= 0 ){
-            Destroy(gameObject);
-        }
+        StartCoroutine(EnemyDie());
         transform.Translate(Vector2.left * speed * Time.deltaTime);
     }
+IEnumerator EnemyDie(){
+    if (health <= 0)
+        {
+            EnemyAnim.SetTrigger("Die");
+            yield return new WaitForSeconds(1.0f); // Wait for 1 second
+            gameObject.SetActive(false);
+        }
+}
     public void TakeDamage(int damage)
     {
+        EnemyAnim.SetTrigger("Takehit");
         health -= damage;
-        Debug.Log("Damage Taken!!!!!"+ damage);
+        Debug.Log("Damage Taken!!!!!" + damage);
     }
 
     internal void TakeDamage(object damage)

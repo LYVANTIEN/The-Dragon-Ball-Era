@@ -36,7 +36,8 @@ public class SamuraiMove : MonoBehaviour
     public float startTimeToAttack;
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
-    public float attackRange;
+    public float attackRangeX;
+    public float attackRangeY;
     public int PlayerDamage;
 
 
@@ -125,18 +126,7 @@ public class SamuraiMove : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.U) == true)
         {
-            float ManaUse = 20;
-            if (ManaUse <= CurrentMP)
-            {
-                CurrentMP -= ManaUse;
-                MPbox.updateMP(CurrentMP, MaxMP);
-                int skillDamage = 4;
-                anim.SetTrigger("SuperAttack");
-                SoundManager.instance.playSound(hitSound);
-                AttackDamage(skillDamage);
-
-            }
-
+            StartCoroutine(PerformSuperAttack());
         }
         if (Input.GetKeyDown(KeyCode.S) == true)
         {
@@ -151,7 +141,8 @@ public class SamuraiMove : MonoBehaviour
             }
             else
             {
-                CurrentMP += 0.015f;
+                ///CurrentMP += 0.015f;
+                CurrentMP += 0.05f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
             }
@@ -163,11 +154,38 @@ public class SamuraiMove : MonoBehaviour
 
 
     }
+    IEnumerator PerformSuperAttack()
+    {
+        float ManaUse = 85;
+        if (ManaUse <= CurrentMP)
+        {
+            CurrentMP -= ManaUse;
+            MPbox.updateMP(CurrentMP, MaxMP);
+            int skillDamage = 10;
+            anim.SetTrigger("SuperAttack");
+            SoundManager.instance.playSound(hitSound);
+
+            yield return new WaitForSeconds(1.0f); // Wait for 1 second
+
+            // Continue with the rest of the code
+            Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsEnemies);
+            for (int i = 0; i < enemiesToDamage.Length; i++)
+            {
+                enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
+            }
+            // AttackDamage(skillDamage);
+        }
+    }
 
     public void OnDrawGizmosSelected()
     {
+
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(AttackPos.position, attackRange);
+        // Gizmos.DrawWireCube(AttackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
+        Gizmos.DrawWireCube(AttackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
+
+
+
     }
     public void AttackDamage(int skillDamage)
     {
@@ -175,7 +193,7 @@ public class SamuraiMove : MonoBehaviour
         /// Dame nhan he so sat thuong skill
         /// </summary>
 
-        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(AttackPos.position, attackRange, WhatIsEnemies);
+        Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsEnemies);
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
