@@ -57,6 +57,8 @@ public class Playerplay : MonoBehaviour
     private float AttackCooldown_U = 15f;
     private float CooldownTimer_U = Mathf.Infinity;
 
+    public CheckpointManager checkpointManager;
+
 
 
     // Start is called before the first frame update
@@ -260,6 +262,7 @@ public class Playerplay : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        anim.SetTrigger("Takehit");
         CurrentHP -= damage;
         HPbox.updateHP(CurrentHP, MaxHP);
         Debug.Log("Player Damage Taken!!!!!" + damage);
@@ -269,9 +272,13 @@ public class Playerplay : MonoBehaviour
     {
         if (CurrentHP <= 0)
         {
-            
+            anim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
-            gameObject.SetActive(false);
+            CurrentHP = MaxHP;
+            CurrentMP = MaxMP;
+            HPbox.updateHP(CurrentHP, MaxHP);
+            MPbox.updateMP(CurrentMP, MaxMP);
+            transform.position = checkpointManager.lastCheckpointPosition;
         }
     }
 
