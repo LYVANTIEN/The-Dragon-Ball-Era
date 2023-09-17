@@ -165,12 +165,23 @@ public class Playerplay : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.O) == true)
         {
-            if (CurrentMP >= MaxHP)
+            if (CurrentHP >= MaxHP)
             {
             }
             else
             {
                 ///CurrentMP += 0.015f;
+                CurrentHP += 0.035f;
+                HPbox.updateHP(CurrentHP, MaxHP);
+                anim.SetBool("Manaup", true);
+            }
+
+            if (CurrentMP >= MaxMP)
+            {
+            }
+            else
+            {
+                ///CurrentMP += 0.015f;   
                 CurrentMP += 0.05f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
