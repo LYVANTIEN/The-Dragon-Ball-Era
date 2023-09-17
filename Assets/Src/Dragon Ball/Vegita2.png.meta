@@ -1,0 +1,1165 @@
+fileFormatVersion: 2
+guid: e798a322e9120c2488f0e5f07327e505
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vegita2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 798
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4ab8523e683434b9cbf4df39f0e0fb
+      internalID: 1994390450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 798
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc430a48d69f3a48a64a9fb7929ed7a
+      internalID: 636746847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 798
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3887ae4628b208c49a8ef12ce1e7f56f
+      internalID: -946729802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 798
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b1308e54d374b4ba01cfdd51566e07
+      internalID: 706157088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 798
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9886d84aabe8242879e142d7cd7cba
+      internalID: -2078527287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 794
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79820b340b60a2439a758eb002fc0e4
+      internalID: 1490639996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 699
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f484273dbdfa0646b10fa63939e5750
+      internalID: -1464584160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 699
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09c2f3214e69be44bfc9e5927a09f93
+      internalID: 1729913640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 699
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d4d40e8be3fc742881415e50c0fe9b
+      internalID: -685253033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 699
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf11f06793e0da42918dca13f660070
+      internalID: -2068302944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 598
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9662776cca0d4419165cb2fdfd0bfa
+      internalID: 303724217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 598
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618611eb94ac56e478f603ebf7c6f62f
+      internalID: 396111875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 598
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5af0bfebbfd54e4fa2a464d71d08294
+      internalID: 1632498604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 598
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbc47a68580e3b45af94bbd3ddf43b3
+      internalID: -1448923674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_17
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 598
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74badb17399c5a4792605a67e40e5d9
+      internalID: 1918708719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 453
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3820b874954262144a747f395ed19b1f
+      internalID: -29750721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_24
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 373
+        width: 109
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0209950e5e8fc4db6666ba80488990
+      internalID: 1223371372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 348
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881fe3d031a42b643a00a357e8467bb1
+      internalID: 689331042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_26
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 349
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebcb19c8e7c66244b647b26a5f8bfac
+      internalID: -863721790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 392
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672ef09f08d1ff4c99d21fc02f54ca4
+      internalID: 367049893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 395
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601b8672438a494bbf4619dccc39e30
+      internalID: -162083126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef9e5d48cbdb6459aa604904bbfe56
+      internalID: 1422315556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_34
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 394
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261520a45df99034485c3e00325204bd
+      internalID: -1332376424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_35
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 396
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb0ce0bb50c5b64795f9b31014da933
+      internalID: -1670750735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 225
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1b2332a6253d47b3f59c4df7e2f53
+      internalID: 1091989277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 239
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b0e61c4ee5174191fb742b0fa9ba7
+      internalID: -1886115454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 244
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258756ef237909742a3406b99ab22f04
+      internalID: -2114963589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_52
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 244
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab1ae448bef4444f8d1ea36a873c441
+      internalID: -1563559487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c592e4bd9aa548877ba0a5f28c514
+      internalID: 177158779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_64
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 142
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e4269016674e141ba08ba6cf62b797
+      internalID: -1308937509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 142
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105608ec9e096634dacbd2f649924ad2
+      internalID: -996980111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 142
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35e037163e9c8418776b9d8e9b5e7b
+      internalID: 370065155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_67
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 142
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b89651c3a8f05b448e35943b6dfb086
+      internalID: 2139923889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 103
+        width: 352
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ac83fbe2cdeb34aa60aa50be37956a
+      internalID: 2028589500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 28
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaff04ce5922f743a80262de71fc42a
+      internalID: -459450928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_71
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 28
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1c6890e302e9949bf7bee5bc65c49b
+      internalID: 661491600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 28
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f35a0c89f64384dbbc78065af55f56
+      internalID: -29377786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_73
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 28
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aed861e02aeb6e4fa728aa06a22d096
+      internalID: 1152668124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_75
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 28
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4302a60561f53aa409b4b6b9453fa4dc
+      internalID: -1014625914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_76
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 28
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245363cf9afbe9642b7b344eb4f96a2e
+      internalID: -2001372950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 28
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6d5de9d2966e24f9c1aaa6ddec58fe
+      internalID: -1211063418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 28
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d5521ae6b74e448f6945a4993bd2a
+      internalID: 391901099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 559
+        width: 328
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad9993635f91734f9095be178c4726c
+      internalID: -655624554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_7
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 333
+        width: 145
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3016780489544854285ea2db8b316864
+      internalID: -1683638203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vegita2_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 218
+        width: 122
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cc90eb34b6574469842a1a48abf7b2
+      internalID: 2047264286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vegita2_0: 1994390450
+      Vegita2_1: 636746847
+      Vegita2_10: -685253033
+      Vegita2_11: -2068302944
+      Vegita2_12: 2047264286
+      Vegita2_13: 303724217
+      Vegita2_14: 396111875
+      Vegita2_15: 1632498604
+      Vegita2_16: -1448923674
+      Vegita2_17: 1918708719
+      Vegita2_18: -576858317
+      Vegita2_19: -420020241
+      Vegita2_2: -946729802
+      Vegita2_20: -1934862027
+      Vegita2_21: -731725290
+      Vegita2_22: -550366724
+      Vegita2_23: -29750721
+      Vegita2_24: 1223371372
+      Vegita2_25: 689331042
+      Vegita2_26: -863721790
+      Vegita2_27: -1694361674
+      Vegita2_28: 2086692161
+      Vegita2_29: 367049893
+      Vegita2_3: 706157088
+      Vegita2_30: -162083126
+      Vegita2_31: 224400795
+      Vegita2_32: -87951940
+      Vegita2_33: 1422315556
+      Vegita2_34: -1332376424
+      Vegita2_35: -1670750735
+      Vegita2_36: -1739140084
+      Vegita2_37: 1952687400
+      Vegita2_38: 2074384408
+      Vegita2_39: 280631138
+      Vegita2_4: -2078527287
+      Vegita2_40: -1643622029
+      Vegita2_41: 346020909
+      Vegita2_42: 1129122287
+      Vegita2_43: -617556999
+      Vegita2_44: -52868302
+      Vegita2_45: -828970814
+      Vegita2_46: 1091989277
+      Vegita2_47: -1364490623
+      Vegita2_48: -575967818
+      Vegita2_49: -1886115454
+      Vegita2_5: 1490639996
+      Vegita2_50: -189882514
+      Vegita2_51: -2114963589
+      Vegita2_52: -1563559487
+      Vegita2_53: 1652261967
+      Vegita2_54: -737988521
+      Vegita2_55: -901233665
+      Vegita2_56: 731736752
+      Vegita2_57: 1445488378
+      Vegita2_58: 1064016125
+      Vegita2_59: 1379228714
+      Vegita2_6: -655624554
+      Vegita2_60: 1250001999
+      Vegita2_61: -1647664473
+      Vegita2_62: 999626260
+      Vegita2_63: 177158779
+      Vegita2_64: -1308937509
+      Vegita2_65: -996980111
+      Vegita2_66: 370065155
+      Vegita2_67: 2139923889
+      Vegita2_68: 2028589500
+      Vegita2_69: 1368017892
+      Vegita2_7: -1683638203
+      Vegita2_70: -459450928
+      Vegita2_71: 661491600
+      Vegita2_72: -29377786
+      Vegita2_73: 1152668124
+      Vegita2_74: 1231798327
+      Vegita2_75: -1014625914
+      Vegita2_76: -2001372950
+      Vegita2_77: -1211063418
+      Vegita2_78: 391901099
+      Vegita2_79: 531563515
+      Vegita2_8: -1464584160
+      Vegita2_9: 1729913640
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
