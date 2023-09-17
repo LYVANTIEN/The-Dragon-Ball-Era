@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
@@ -6,7 +7,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-public class SamuraiMove : MonoBehaviour
+public class Playerplay : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Animator anim;
@@ -32,14 +33,29 @@ public class SamuraiMove : MonoBehaviour
     public AudioClip jumpSound;
 
 
-    public float TimeToAttack;
-    public float startTimeToAttack;
+
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
     public LayerMask WhatIsMapItem;
     public float attackRangeX;
     public float attackRangeY;
     public int PlayerDamage;
+
+    /// <summary>
+    ///Cooldown all skill
+    /// </summary>
+    /// Button J
+    private float AttackCooldown_J = 1f;
+    private float CooldownTimer_J = Mathf.Infinity;
+    // Button K
+    private float AttackCooldown_K = 4f;
+    private float CooldownTimer_K = Mathf.Infinity;
+    // Button I
+    private float AttackCooldown_I = 8f;
+    private float CooldownTimer_I = Mathf.Infinity;
+    // Button U
+    private float AttackCooldown_U = 15f;
+    private float CooldownTimer_U = Mathf.Infinity;
 
 
 
@@ -58,6 +74,7 @@ public class SamuraiMove : MonoBehaviour
         Move();
         Attack();
         Jump();
+        StartCoroutine(PlayerDie());
 
 
     }
@@ -82,7 +99,8 @@ public class SamuraiMove : MonoBehaviour
     }
     public void Attack()
     {
-        if (Input.GetKeyDown(KeyCode.J) == true)
+        //---------------------------------Button J
+        if (Input.GetKeyDown(KeyCode.J) == true && CooldownTimer_J > AttackCooldown_J)
         {
             float ManaUse = 5;
             if (ManaUse <= CurrentMP)
@@ -93,10 +111,12 @@ public class SamuraiMove : MonoBehaviour
                 SoundManager.instance.playSound(hitSound);
                 anim.SetTrigger("Attack");
                 AttackDamage(skillDamage);
+                CooldownTimer_J = 0;
             }
-
         }
-        if (Input.GetKeyDown(KeyCode.K) == true)
+        CooldownTimer_J += Time.deltaTime;
+        //-----------------------------------------
+        if (Input.GetKeyDown(KeyCode.K) == true && CooldownTimer_K > AttackCooldown_K)
         {
             float ManaUse = 8;
             if (ManaUse <= CurrentMP)
@@ -107,11 +127,13 @@ public class SamuraiMove : MonoBehaviour
                 SoundManager.instance.playSound(hitSound);
                 anim.SetTrigger("Attack2");
                 AttackDamage(skillDamage);
+                CooldownTimer_K = 0;
             }
-
         }
+        CooldownTimer_K += Time.deltaTime;
+        ///-------------------------------------------
 
-        if (Input.GetKeyDown(KeyCode.I) == true)
+        if (Input.GetKeyDown(KeyCode.I) == true && CooldownTimer_I > AttackCooldown_I)
         {
             float ManaUse = 12;
             if (ManaUse <= CurrentMP)
@@ -122,13 +144,19 @@ public class SamuraiMove : MonoBehaviour
                 SoundManager.instance.playSound(hitSound);
                 anim.SetTrigger("Attack3");
                 AttackDamage(skillDamage);
+                CooldownTimer_I = 0;
             }
         }
+        CooldownTimer_I += Time.deltaTime;
+        ///-------------------------------------
 
-        if (Input.GetKeyDown(KeyCode.U) == true)
+        if (Input.GetKeyDown(KeyCode.U) == true && CooldownTimer_U > AttackCooldown_U)
         {
             StartCoroutine(PerformSuperAttack());
         }
+        CooldownTimer_U += Time.deltaTime;
+        //-------------------------------------
+
         if (Input.GetKeyDown(KeyCode.S) == true)
         {
             SoundManager.instance.playSound(hitSound);
@@ -169,17 +197,20 @@ public class SamuraiMove : MonoBehaviour
             yield return new WaitForSeconds(1.0f); // Wait for 1 second
 
             // Continue with the rest of the code
+
+
             Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsEnemies);
             for (int i = 0; i < enemiesToDamage.Length; i++)
             {
                 enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
             }
             // AttackDamage(skillDamage);
-            Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
+            Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsMapItem);
             for (int i = 0; i < MapItemToDamage.Length; i++)
             {
                 MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(PlayerDamage * skillDamage);
             }
+            CooldownTimer_U = 0;
         }
     }
 
@@ -214,6 +245,28 @@ public class SamuraiMove : MonoBehaviour
         }
 
 
+    }
+
+    public void TakeDamage(int damage)
+    {
+        CurrentHP -= damage;
+        HPbox.updateHP(CurrentHP, MaxHP);
+        Debug.Log("Player Damage Taken!!!!!" + damage);
+    }
+
+    IEnumerator PlayerDie()
+    {
+        if (CurrentHP <= 0)
+        {
+            
+            yield return new WaitForSeconds(1.5f); // Wait for 1 second
+            gameObject.SetActive(false);
+        }
+    }
+
+    internal void TakeDamage(object damage)
+    {
+        throw new NotImplementedException();
     }
 
     public void Jump()
