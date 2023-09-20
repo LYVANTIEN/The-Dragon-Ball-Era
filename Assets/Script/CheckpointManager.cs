@@ -6,20 +6,25 @@ public class CheckpointManager : MonoBehaviour
 {
     public Vector2 lastCheckpointPosition;
 
-    
+
     public Animator CheckPointAnim; // This line is causing the error.
 
-    private bool firstTime = true;
 
+    void Start()
+    {
+
+    }
+    void update()
+    {
+
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             CheckPointAnim.SetFloat("Active", 1.0f);
-            lastCheckpointPosition = transform.position;
-           
+            lastCheckpointPosition = new Vector2(transform.position.x, transform.position.y);
 
-            // This is where the error occurs.
         }
     }
 }

@@ -304,7 +304,10 @@ public class Playerplay : MonoBehaviour
         }
 
     }
-
+    public void PlayerNextMap()
+    {
+        anim.SetTrigger("NextMap");
+    }
 
     private void OnTriggerEnter2D(Collider2D otherhitbox)
     {
