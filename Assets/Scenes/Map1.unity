@@ -12682,9 +12682,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 522304226}
     m_Modifications:
+    - target: {fileID: 611091163416813494, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
+      propertyPath: AttackCooldown_J
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388841956513541297, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4949430719038754210, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
       propertyPath: m_Name
       value: Goku
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309311857576248248, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309311857576248248, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5309311857576248248, guid: db55e2e9774491d458add8dc513f2ae9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13002,6 +13018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7074845785288692094, guid: 6975f6ab22504d64b8010c47e2906046, type: 3}
+      propertyPath: AttackCooldown_J
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13023,6 +13043,10 @@ PrefabInstance:
       propertyPath: MPbox
       value: 
       objectReference: {fileID: 447502790}
+    - target: {fileID: 4294475717331689014, guid: 514cca0d0dc3f554ab356443f4a8aedc, type: 3}
+      propertyPath: WhatIsBoss.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 4294475717331689014, guid: 514cca0d0dc3f554ab356443f4a8aedc, type: 3}
       propertyPath: checkpointManager
       value: 
@@ -13216,7 +13240,7 @@ GameObject:
   - component: {fileID: 7494414582517257431}
   - component: {fileID: 7673610377807871075}
   - component: {fileID: 7673610377807871074}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: FideBoss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13291,6 +13315,7 @@ MonoBehaviour:
   attackRangeX: 2
   attackRangeY: 2
   EnemyDamage: 5
+  AttackCooldown_J: 1.5
 --- !u!95 &7673610377807871075
 Animator:
   serializedVersion: 5
@@ -13337,7 +13362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3508875046375406293}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Attack Pos
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}

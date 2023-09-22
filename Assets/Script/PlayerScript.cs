@@ -37,6 +37,7 @@ public class Playerplay : MonoBehaviour
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
     public LayerMask WhatIsMapItem;
+    public LayerMask WhatIsBoss;
     public float attackRangeX;
     public float attackRangeY;
     public int PlayerDamage;
@@ -217,6 +218,11 @@ public class Playerplay : MonoBehaviour
             {
                 enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
             }
+            Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsBoss);
+            for (int i = 0; i < BossToDamage.Length; i++)
+            {
+                BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
+            }
             // AttackDamage(skillDamage);
             Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsMapItem);
             for (int i = 0; i < MapItemToDamage.Length; i++)
@@ -248,6 +254,12 @@ public class Playerplay : MonoBehaviour
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
+        }
+
+        Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsBoss);
+        for (int i = 0; i < BossToDamage.Length; i++)
+        {
+            BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
         }
 
         //
