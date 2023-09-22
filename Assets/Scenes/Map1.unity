@@ -13281,7 +13281,7 @@ MonoBehaviour:
   FideBossAnim: {fileID: 7673610377807871075}
   EnemyRigid: {fileID: 7494414582517257431}
   chaseDistance: 10
-  hitSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 5af49eb34d0101f4cb7ce36f23b10824, type: 3}
   AttackPos: {fileID: 3508875046375406293}
   WhatIsPlayer:
     serializedVersion: 2
