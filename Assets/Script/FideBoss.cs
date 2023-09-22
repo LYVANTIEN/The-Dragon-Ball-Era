@@ -40,7 +40,7 @@ public class FideBoss : MonoBehaviour
 
         //----------------------
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-       // EnemyAnim.SetFloat("Move", 0);
+       FideBossAnim.SetFloat("Move", 0);
 
         if (distanceToPlayer < chaseDistance)
         {
@@ -61,7 +61,7 @@ public class FideBoss : MonoBehaviour
 
             // Di chuyển enemy
 
-            //EnemyAnim.SetFloat("Move", 1);
+            FideBossAnim.SetFloat("Move", 1);
             transform.Translate(directionfollow * speed * Time.deltaTime);
 
             if (Mathf.Abs(player.position.x - transform.position.x) < 0.5f)
@@ -83,7 +83,7 @@ public class FideBoss : MonoBehaviour
 
             int skillDamage = 1;
             SoundManager.instance.playSound(hitSound);
-            //EnemyAnim.SetTrigger("Attack");
+            FideBossAnim.SetTrigger("Attack");
             AttackDamage(skillDamage);
             CooldownTimer_J = 0;
 
@@ -111,14 +111,14 @@ public class FideBoss : MonoBehaviour
     {
         if (health <= 0)
         {
-           // EnemyAnim.SetTrigger("Die");
+           FideBossAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
             gameObject.SetActive(false);
         }
     }
     public void TakeDamage(int damage)
     {
-       // EnemyAnim.SetTrigger("Takehit");
+       FideBossAnim.SetTrigger("Takehit");
         health -= damage;
         Debug.Log("Damage Taken!!!!!" + damage);
     }

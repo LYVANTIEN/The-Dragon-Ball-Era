@@ -12812,7 +12812,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -587546112, guid: bc658f5d72216144aa9963042b613be6, type: 3}
+  m_Sprite: {fileID: 144016512, guid: 92f9a358e1291ac4c86699b0b0627f67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12874,7 +12874,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.84375, y: 2.125}
+    oldSize: {x: 1.5, y: 2.15}
     newSize: {x: 6.25, y: 6.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -13259,7 +13259,7 @@ Transform:
   m_GameObject: {fileID: 7457888407806620283}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43.26, y: -2.53, z: 0}
+  m_LocalPosition: {x: -43.23, y: -2.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13279,18 +13279,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FideBossAnim: {fileID: 7673610377807871075}
-  EnemyRigid: {fileID: 0}
-  chaseDistance: 7
+  EnemyRigid: {fileID: 7494414582517257431}
+  chaseDistance: 10
   hitSound: {fileID: 0}
   AttackPos: {fileID: 3508875046375406293}
   WhatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
-  health: 50
-  speed: 3
+  health: 100
+  speed: 4
   attackRangeX: 2
   attackRangeY: 2
-  EnemyDamage: 10
+  EnemyDamage: 5
 --- !u!95 &7673610377807871075
 Animator:
   serializedVersion: 5
