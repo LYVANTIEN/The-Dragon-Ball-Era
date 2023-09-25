@@ -181,7 +181,7 @@ public class Playerplay : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.O) == true && CooldownTimer_O > AttackCooldown_O)
         {
-            if (CurrentHP >= MaxHP)
+            if (CurrentHP >= MaxHP && CurrentMP >= MaxMP)
             {
                 CooldownTimer_O = 0;
             }
@@ -191,12 +191,12 @@ public class Playerplay : MonoBehaviour
                 CurrentHP += 0.1f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
-                
+
             }
 
-            if (CurrentMP >= MaxMP)
+            if (CurrentMP >= MaxMP && CurrentHP >= MaxHP)
             {
-                 CooldownTimer_O = 0;
+                CooldownTimer_O = 0;
             }
             else
             {
@@ -204,7 +204,7 @@ public class Playerplay : MonoBehaviour
                 CurrentMP += 0.1f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
-               
+
             }
         }
         else
