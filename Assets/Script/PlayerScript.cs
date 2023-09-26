@@ -13,7 +13,6 @@ public class Playerplay : MonoBehaviour
     public Animator anim;
     private AudioSource AttackAudio;
     public Transform Player;
-
     //Hp va Mp
     public HP_MP HPbox;
     public HP_MP MPbox;
@@ -46,11 +45,6 @@ public class Playerplay : MonoBehaviour
     ///Cooldown all skill
     /// </summary>
     /// Button J
-    public CooldownIcon cooldownIcon_J;
-    public CooldownIcon cooldownIcon_K;
-    public CooldownIcon cooldownIcon_I;
-    public CooldownIcon cooldownIcon_U;
-    public CooldownIcon cooldownIcon_O;
     private float AttackCooldown_J = 1f;
     private float CooldownTimer_J = Mathf.Infinity;
     // Button K
@@ -62,8 +56,6 @@ public class Playerplay : MonoBehaviour
     // Button U
     private float AttackCooldown_U = 15f;
     private float CooldownTimer_U = Mathf.Infinity;
-    private float AttackCooldown_O = 10f;
-    private float CooldownTimer_O = Mathf.Infinity;
 
     public CheckpointManager checkpointManager;
 
@@ -125,8 +117,6 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_J += Time.deltaTime;
-        cooldownIcon_J.updateCooldown_J(CooldownTimer_J, AttackCooldown_J);
-
         //-----------------------------------------
         if (Input.GetKeyDown(KeyCode.K) == true && CooldownTimer_K > AttackCooldown_K)
         {
@@ -143,7 +133,6 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_K += Time.deltaTime;
-        cooldownIcon_K.updateCooldown_K(CooldownTimer_K, AttackCooldown_K);
         ///-------------------------------------------
 
         if (Input.GetKeyDown(KeyCode.I) == true && CooldownTimer_I > AttackCooldown_I)
@@ -161,8 +150,6 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_I += Time.deltaTime;
-        cooldownIcon_I.updateCooldown_I(CooldownTimer_I, AttackCooldown_I);
-        // cooldownIcon.updateCooldown_I(CooldownTimer_I, AttackCooldown_I);
         ///-------------------------------------
 
         if (Input.GetKeyDown(KeyCode.U) == true && CooldownTimer_U > AttackCooldown_U)
@@ -170,7 +157,6 @@ public class Playerplay : MonoBehaviour
             StartCoroutine(PerformSuperAttack());
         }
         CooldownTimer_U += Time.deltaTime;
-        cooldownIcon_U.updateCooldown_U(CooldownTimer_U, AttackCooldown_U);
         //-------------------------------------
 
         if (Input.GetKeyDown(KeyCode.S) == true)
@@ -179,40 +165,34 @@ public class Playerplay : MonoBehaviour
             anim.SetTrigger("Guard");
 
         }
-        if (Input.GetKey(KeyCode.O) == true && CooldownTimer_O > AttackCooldown_O)
+        if (Input.GetKey(KeyCode.O) == true)
         {
-            if (CurrentHP >= MaxHP && CurrentMP >= MaxMP)
+            if (CurrentHP >= MaxHP)
             {
-                CooldownTimer_O = 0;
             }
             else
             {
                 ///CurrentMP += 0.015f;
-                CurrentHP += 0.1f;
+                CurrentHP += 0.035f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
-
             }
 
-            if (CurrentMP >= MaxMP && CurrentHP >= MaxHP)
+            if (CurrentMP >= MaxMP)
             {
-                CooldownTimer_O = 0;
             }
             else
             {
                 ///CurrentMP += 0.015f;   
-                CurrentMP += 0.1f;
+                CurrentMP += 0.05f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
-
             }
         }
         else
         {
             anim.SetBool("Manaup", false);
         }
-        CooldownTimer_O += Time.deltaTime;
-        cooldownIcon_O.updateCooldown_O(CooldownTimer_O, AttackCooldown_O);
 
 
     }

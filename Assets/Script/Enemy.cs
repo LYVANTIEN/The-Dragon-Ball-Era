@@ -7,11 +7,7 @@ using Random = UnityEngine.Random;
 public class Enemy : MonoBehaviour
 {
     private AudioSource AttackAudio;
-
-    public HP_MP HPbox;
-    public float CurrentHP;
-    public float MaxHP = 30;
-
+    public int health;
     public float speed = 3;
     public Animator EnemyAnim;
     public Rigidbody2D EnemyRigid;
@@ -25,8 +21,6 @@ public class Enemy : MonoBehaviour
     /// Enemy Attack
     /// 
     /// 
-    /// 
-
     public Transform AttackPos;
     public LayerMask WhatIsPlayer;
     public float attackRangeX;
@@ -39,8 +33,6 @@ public class Enemy : MonoBehaviour
     {
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        CurrentHP = MaxHP;
-        HPbox.updateHP(CurrentHP, MaxHP);
     }
 
     void Update()
@@ -73,13 +65,13 @@ public class Enemy : MonoBehaviour
             transform.Translate(directionfollow * speed * Time.deltaTime);
 
             if (Mathf.Abs(player.position.x - transform.position.x) < 1f)
-            {
-                // Nếu player ở gần enemy theo trục X
-                EnemyAttack();
-            }
+        {
+            // Nếu player ở gần enemy theo trục X
+            EnemyAttack();
+        }
         }
         //---------------------------
-
+       
 
         StartCoroutine(EnemyDie());
     }
@@ -120,7 +112,7 @@ public class Enemy : MonoBehaviour
 
     IEnumerator EnemyDie()
     {
-        if (CurrentHP <= 0)
+        if (health <= 0)
         {
             EnemyAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
@@ -130,8 +122,7 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         EnemyAnim.SetTrigger("Takehit");
-        CurrentHP -= damage;
-        HPbox.updateHP(CurrentHP, MaxHP);
+        health -= damage;
         Debug.Log("Damage Taken!!!!!" + damage);
     }
 
