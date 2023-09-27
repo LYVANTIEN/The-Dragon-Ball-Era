@@ -58,7 +58,7 @@ public class Playerplay : MonoBehaviour
     private float AttackCooldown_K = 4f;
     private float CooldownTimer_K = Mathf.Infinity;
 
-    private float AttackCooldown_L = 4f;
+    private float AttackCooldown_L = 0.2f;
     private float CooldownTimer_L = Mathf.Infinity;
     // Button I
     private float AttackCooldown_I = 8f;
@@ -70,8 +70,9 @@ public class Playerplay : MonoBehaviour
     private float CooldownTimer_O = Mathf.Infinity;
 
     public CheckpointManager checkpointManager;
+   // public BulletScript bulletScript;
+   public GameObject[] Vegito_Bullet;
 
-  
 
 
 
@@ -232,7 +233,15 @@ public class Playerplay : MonoBehaviour
         cooldownIcon_O.updateCooldown_O(CooldownTimer_O, AttackCooldown_O);
 
         //--------------------------------------------Bullet skill
+        Skill_L_bullet();
 
+
+
+
+    }
+
+    public void Skill_L_bullet()
+    {
         if (Input.GetKeyDown(KeyCode.L) == true && CooldownTimer_L > AttackCooldown_L)
         {
             float ManaUse = 10;
@@ -244,6 +253,9 @@ public class Playerplay : MonoBehaviour
                 anim.SetTrigger("Bullet");
                 //goi object bullet
 
+                Vegito_Bullet[FindVegito_Bullet()].transform.position = AttackPos.position;
+                Vegito_Bullet[FindVegito_Bullet()].GetComponent<BulletScript>().SetDirection(Mathf.Sign(transform.localScale.x));
+
                 // int skillDamage = 3;
                 // AttackDamage(skillDamage);
                 CooldownTimer_L = 0;
@@ -251,9 +263,14 @@ public class Playerplay : MonoBehaviour
         }
         CooldownTimer_L += Time.deltaTime;
         cooldownIcon_L.updateCooldown_L(CooldownTimer_L, AttackCooldown_L);
+    }
 
-
-
+    public int FindVegito_Bullet(){
+        for(int i = 0; i< Vegito_Bullet.Length; i++){
+            if(!Vegito_Bullet[i].activeInHierarchy)
+            {return i;}
+        }
+        return 0;
     }
     IEnumerator PerformSuperAttack()
     {
