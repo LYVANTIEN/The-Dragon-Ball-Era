@@ -51,11 +51,15 @@ public class Playerplay : MonoBehaviour
     public CooldownIcon cooldownIcon_I;
     public CooldownIcon cooldownIcon_U;
     public CooldownIcon cooldownIcon_O;
+    public CooldownIcon cooldownIcon_L;
     private float AttackCooldown_J = 1f;
     private float CooldownTimer_J = Mathf.Infinity;
     // Button K
     private float AttackCooldown_K = 4f;
     private float CooldownTimer_K = Mathf.Infinity;
+
+    private float AttackCooldown_L = 4f;
+    private float CooldownTimer_L = Mathf.Infinity;
     // Button I
     private float AttackCooldown_I = 8f;
     private float CooldownTimer_I = Mathf.Infinity;
@@ -66,6 +70,9 @@ public class Playerplay : MonoBehaviour
     private float CooldownTimer_O = Mathf.Infinity;
 
     public CheckpointManager checkpointManager;
+
+  
+
 
 
 
@@ -144,6 +151,7 @@ public class Playerplay : MonoBehaviour
         }
         CooldownTimer_K += Time.deltaTime;
         cooldownIcon_K.updateCooldown_K(CooldownTimer_K, AttackCooldown_K);
+
         ///-------------------------------------------
 
         if (Input.GetKeyDown(KeyCode.I) == true && CooldownTimer_I > AttackCooldown_I)
@@ -185,8 +193,10 @@ public class Playerplay : MonoBehaviour
             if (CurrentHP >= MaxHP && CurrentMP >= MaxMP)
             {
                 CooldownTimer_O = 0;
-            }else if(CurrentHP >= MaxHP && CurrentMP <= MaxMP){
-               //khong tang hp nua nhung van tang mp 
+            }
+            else if (CurrentHP >= MaxHP && CurrentMP <= MaxMP)
+            {
+                //khong tang hp nua nhung van tang mp 
             }
             else
             {
@@ -200,8 +210,10 @@ public class Playerplay : MonoBehaviour
             if (CurrentMP >= MaxMP && CurrentHP >= MaxHP)
             {
                 CooldownTimer_O = 0;
-            }else if(CurrentMP >= MaxMP && CurrentHP <= MaxHP){
-               //khong tang mp nua nhung van tang hp 
+            }
+            else if (CurrentMP >= MaxMP && CurrentHP <= MaxHP)
+            {
+                //khong tang mp nua nhung van tang hp 
             }
             else
             {
@@ -218,6 +230,28 @@ public class Playerplay : MonoBehaviour
         }
         CooldownTimer_O += Time.deltaTime;
         cooldownIcon_O.updateCooldown_O(CooldownTimer_O, AttackCooldown_O);
+
+        //--------------------------------------------Bullet skill
+
+        if (Input.GetKeyDown(KeyCode.L) == true && CooldownTimer_L > AttackCooldown_L)
+        {
+            float ManaUse = 10;
+            if (ManaUse <= CurrentMP)
+            {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                SoundManager.instance.playSound(hitSound);
+                anim.SetTrigger("Bullet");
+                //goi object bullet
+
+                // int skillDamage = 3;
+                // AttackDamage(skillDamage);
+                CooldownTimer_L = 0;
+            }
+        }
+        CooldownTimer_L += Time.deltaTime;
+        cooldownIcon_L.updateCooldown_L(CooldownTimer_L, AttackCooldown_L);
+
 
 
     }
