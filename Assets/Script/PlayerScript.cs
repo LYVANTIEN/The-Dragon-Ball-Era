@@ -181,9 +181,12 @@ public class Playerplay : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.O) == true && CooldownTimer_O > AttackCooldown_O)
         {
+
             if (CurrentHP >= MaxHP && CurrentMP >= MaxMP)
             {
                 CooldownTimer_O = 0;
+            }else if(CurrentHP >= MaxHP && CurrentMP <= MaxMP){
+               //khong tang hp nua nhung van tang mp 
             }
             else
             {
@@ -197,6 +200,8 @@ public class Playerplay : MonoBehaviour
             if (CurrentMP >= MaxMP && CurrentHP >= MaxHP)
             {
                 CooldownTimer_O = 0;
+            }else if(CurrentMP >= MaxMP && CurrentHP <= MaxHP){
+               //khong tang mp nua nhung van tang hp 
             }
             else
             {
