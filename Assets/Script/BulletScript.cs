@@ -13,6 +13,21 @@ public class BulletScript : MonoBehaviour
     public bool hit;
     public float direction;
     private float lifeTime;
+
+
+    public float chaseDistance; // Khoảng cách để bắt đầu đuổi theo player
+
+
+
+    /// Enemy Attack
+    /// 
+    /// 
+    public Transform AttackPos;
+    public LayerMask WhatIsEnemies;
+    public float attackRangeX;
+    public float attackRangeY;
+    public int BulletDamage;
+
     void Start()
     {
 
@@ -20,6 +35,7 @@ public class BulletScript : MonoBehaviour
 
     void Update()
     {
+        //---------------------
         if (hit)
         {
             return;
@@ -30,10 +46,36 @@ public class BulletScript : MonoBehaviour
         transform.Translate(movementSpeed * direction, 0, 0);
         lifeTime += Time.deltaTime;
 
-        if (lifeTime > 3)
+        if (lifeTime > 3f)
         {
             gameObject.SetActive(false);
         }
+
+
+    }
+    public void BulletAttack()
+    {
+
+        int skillDamage = 1;
+        AttackDamage(skillDamage);
+
+    }
+    public void AttackDamage(int skillDamage)
+    {
+
+        Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsEnemies);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(BulletDamage * skillDamage);
+        }
+    }
+
+    public void OnDrawGizmosSelected()
+    {
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(AttackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
+
 
 
     }
@@ -42,8 +84,8 @@ public class BulletScript : MonoBehaviour
     {
         hit = true;
         BulletCollider.enabled = false;
-        if (collison.gameObject.CompareTag("Enemy"))
-        { }
+        BulletAttack();
+        //gameObject.SetActive(false);
         BulletAnim.SetTrigger("Destroy");
     }
     public void SetDirection(float _direction)

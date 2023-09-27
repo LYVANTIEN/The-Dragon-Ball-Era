@@ -70,8 +70,9 @@ public class Playerplay : MonoBehaviour
     private float CooldownTimer_O = Mathf.Infinity;
 
     public CheckpointManager checkpointManager;
-   // public BulletScript bulletScript;
-   public GameObject[] Vegito_Bullet;
+    // public BulletScript bulletScript;
+    public GameObject[] Vegito_Bullet;
+    
 
 
 
@@ -256,6 +257,7 @@ public class Playerplay : MonoBehaviour
                 Vegito_Bullet[FindVegito_Bullet()].transform.position = AttackPos.position;
                 Vegito_Bullet[FindVegito_Bullet()].GetComponent<BulletScript>().SetDirection(Mathf.Sign(transform.localScale.x));
 
+
                 // int skillDamage = 3;
                 // AttackDamage(skillDamage);
                 CooldownTimer_L = 0;
@@ -265,11 +267,17 @@ public class Playerplay : MonoBehaviour
         cooldownIcon_L.updateCooldown_L(CooldownTimer_L, AttackCooldown_L);
     }
 
-    public int FindVegito_Bullet(){
-        for(int i = 0; i< Vegito_Bullet.Length; i++){
-            if(!Vegito_Bullet[i].activeInHierarchy)
-            {return i;}
+    public int FindVegito_Bullet()
+    {
+        for (int i = 0; i < Vegito_Bullet.Length; i++)
+        {
+            if (!Vegito_Bullet[i].activeInHierarchy)
+
+            {
+                return i;
+            }
         }
+
         return 0;
     }
     IEnumerator PerformSuperAttack()
