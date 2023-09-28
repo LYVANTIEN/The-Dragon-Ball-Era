@@ -7,7 +7,11 @@ using Random = UnityEngine.Random;
 public class Enemy : MonoBehaviour
 {
     private AudioSource AttackAudio;
-    public int health;
+
+    public HP_MP HPbox;
+    public float CurrentHP;
+    public float MaxHP = 30;
+
     public float speed = 3;
     public Animator EnemyAnim;
     public Rigidbody2D EnemyRigid;
@@ -21,18 +25,22 @@ public class Enemy : MonoBehaviour
     /// Enemy Attack
     /// 
     /// 
+    /// 
+
     public Transform AttackPos;
     public LayerMask WhatIsPlayer;
     public float attackRangeX;
     public float attackRangeY;
     public int EnemyDamage;
-    private float AttackCooldown_J = 1f;
+    public float AttackCooldown_J;
     private float CooldownTimer_J = Mathf.Infinity;
     // Start is called before the first frame update
     void Start()
     {
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        CurrentHP = MaxHP;
+        HPbox.updateHP(CurrentHP, MaxHP);
     }
 
     void Update()
@@ -64,14 +72,14 @@ public class Enemy : MonoBehaviour
             EnemyAnim.SetFloat("Move", 1);
             transform.Translate(directionfollow * speed * Time.deltaTime);
 
-            if (Mathf.Abs(player.position.x - transform.position.x) < 0.5f)
-        {
-            // Nếu player ở gần enemy theo trục X
-            EnemyAttack();
-        }
+            if (Mathf.Abs(player.position.x - transform.position.x) < 1f)
+            {
+                // Nếu player ở gần enemy theo trục X
+                EnemyAttack();
+            }
         }
         //---------------------------
-       
+
 
         StartCoroutine(EnemyDie());
     }
@@ -112,7 +120,7 @@ public class Enemy : MonoBehaviour
 
     IEnumerator EnemyDie()
     {
-        if (health <= 0)
+        if (CurrentHP <= 0)
         {
             EnemyAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
@@ -122,7 +130,8 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(int damage)
     {
         EnemyAnim.SetTrigger("Takehit");
-        health -= damage;
+        CurrentHP -= damage;
+        HPbox.updateHP(CurrentHP, MaxHP);
         Debug.Log("Damage Taken!!!!!" + damage);
     }
 

@@ -26,7 +26,7 @@ public class FideBoss : MonoBehaviour
     public float attackRangeX;
     public float attackRangeY;
     public int EnemyDamage;
-    private float AttackCooldown_J = 1f;
+    public float AttackCooldown_J;
     private float CooldownTimer_J = Mathf.Infinity;
     // Start is called before the first frame update
     void Start()
@@ -64,7 +64,7 @@ public class FideBoss : MonoBehaviour
             //EnemyAnim.SetFloat("Move", 1);
             transform.Translate(directionfollow * speed * Time.deltaTime);
 
-            if (Mathf.Abs(player.position.x - transform.position.x) < 0.5f)
+            if (Mathf.Abs(player.position.x - transform.position.x) < 1f)
             {
                 // Nếu player ở gần enemy theo trục X
                 EnemyAttack();
