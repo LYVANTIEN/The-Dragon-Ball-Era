@@ -255,9 +255,6 @@ public Transform BulletPos;
                 SoundManager.instance.playSound(hitSound);
                 anim.SetTrigger("Bullet");
                 //goi object bullet
-
-                // Vegito_Bullet[FindVegito_Bullet()].transform.position = AttackPos.position;
-                // Vegito_Bullet[FindVegito_Bullet()].GetComponent<BulletScript>().SetDirection(Mathf.Sign(transform.localScale.x));
                 //--------------------------------------------------
 
 
