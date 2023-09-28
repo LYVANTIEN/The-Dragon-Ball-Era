@@ -41,9 +41,9 @@ public class BulletScript : MonoBehaviour
             return;
         }
 
-        float movementSpeed = BulletSpeed * Time.deltaTime;
+        float movementSpeed = BulletSpeed * Time.deltaTime * direction;
         // Adjust the movement direction based on the 'direction' variable
-        transform.Translate(movementSpeed * direction, 0, 0);
+        transform.Translate(movementSpeed, 0, 0);
         lifeTime += Time.deltaTime;
 
         if (lifeTime > 3f)

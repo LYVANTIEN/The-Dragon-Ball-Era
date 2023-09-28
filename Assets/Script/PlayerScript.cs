@@ -71,8 +71,10 @@ public class Playerplay : MonoBehaviour
 
     public CheckpointManager checkpointManager;
     // public BulletScript bulletScript;
-    public GameObject[] Vegito_Bullet;
-    
+    // public GameObject[] Vegito_Bullet;
+
+    public GameObject Bullet_Vegito;
+public Transform BulletPos;
 
 
 
@@ -254,8 +256,19 @@ public class Playerplay : MonoBehaviour
                 anim.SetTrigger("Bullet");
                 //goi object bullet
 
-                Vegito_Bullet[FindVegito_Bullet()].transform.position = AttackPos.position;
-                Vegito_Bullet[FindVegito_Bullet()].GetComponent<BulletScript>().SetDirection(Mathf.Sign(transform.localScale.x));
+                // Vegito_Bullet[FindVegito_Bullet()].transform.position = AttackPos.position;
+                // Vegito_Bullet[FindVegito_Bullet()].GetComponent<BulletScript>().SetDirection(Mathf.Sign(transform.localScale.x));
+                //--------------------------------------------------
+
+
+                // Gọi Instantiate và lưu lại đối tượng viên đạn được tạo ra
+                GameObject bullet = Instantiate(Bullet_Vegito, BulletPos.position, BulletPos.rotation);
+
+                // Lấy ra script của viên đạn
+                Bullet bulletScript = bullet.GetComponent<Bullet>();
+
+                // Truyền giá trị isFacingRight vào script của viên đạn
+                bulletScript.Initialize(isFacingRight);
 
 
                 // int skillDamage = 3;
@@ -267,19 +280,19 @@ public class Playerplay : MonoBehaviour
         cooldownIcon_L.updateCooldown_L(CooldownTimer_L, AttackCooldown_L);
     }
 
-    public int FindVegito_Bullet()
-    {
-        for (int i = 0; i < Vegito_Bullet.Length; i++)
-        {
-            if (!Vegito_Bullet[i].activeInHierarchy)
+    // public int FindVegito_Bullet()
+    // {
+    //     for (int i = 0; i < Vegito_Bullet.Length; i++)
+    //     {
+    //         if (!Vegito_Bullet[i].activeInHierarchy)
 
-            {
-                return i;
-            }
-        }
+    //         {
+    //             return i;
+    //         }
+    //     }
 
-        return 0;
-    }
+    //     return 0;
+    // }
     IEnumerator PerformSuperAttack()
     {
         float ManaUse = 85;
