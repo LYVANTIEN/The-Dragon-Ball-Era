@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D bulletRigid;
     public Animator BulletAnim;
     public float BulletSpeed;
-    public float chaseDistance; // Khoảng cách để bắt đầu đuổi theo player
+
 
     /// Enemy Attack
     /// 

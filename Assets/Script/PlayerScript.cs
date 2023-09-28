@@ -58,7 +58,7 @@ public class Playerplay : MonoBehaviour
     private float AttackCooldown_K = 4f;
     private float CooldownTimer_K = Mathf.Infinity;
 
-    private float AttackCooldown_L = 0.2f;
+    private float AttackCooldown_L = 4f;
     private float CooldownTimer_L = Mathf.Infinity;
     // Button I
     private float AttackCooldown_I = 8f;
