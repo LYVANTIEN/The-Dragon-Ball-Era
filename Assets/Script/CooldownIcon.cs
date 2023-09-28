@@ -9,6 +9,7 @@ public class CooldownIcon : MonoBehaviour
     public Image Cooldown_I;
     public Image Cooldown_U;
     public Image Cooldown_O;
+    public Image Cooldown_L;
     // Start is called before the first frame update
   public void updateCooldown_J(float CooldownTimer_J, float AttackCooldown_J)
     {
@@ -35,4 +36,10 @@ public class CooldownIcon : MonoBehaviour
         Cooldown_O.fillAmount = CooldownTimer_O / AttackCooldown_O;
 
     }
+       public void updateCooldown_L(float CooldownTimer_L, float AttackCooldown_L)
+    {
+        Cooldown_L.fillAmount = CooldownTimer_L / AttackCooldown_L;
+
+    }
+
 }

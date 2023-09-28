@@ -13,6 +13,7 @@ public class Playerplay : MonoBehaviour
     public Animator anim;
     private AudioSource AttackAudio;
     public Transform Player;
+
     //Hp va Mp
     public HP_MP HPbox;
     public HP_MP MPbox;
@@ -45,19 +46,37 @@ public class Playerplay : MonoBehaviour
     ///Cooldown all skill
     /// </summary>
     /// Button J
+    public CooldownIcon cooldownIcon_J;
+    public CooldownIcon cooldownIcon_K;
+    public CooldownIcon cooldownIcon_I;
+    public CooldownIcon cooldownIcon_U;
+    public CooldownIcon cooldownIcon_O;
+    public CooldownIcon cooldownIcon_L;
     private float AttackCooldown_J = 1f;
     private float CooldownTimer_J = Mathf.Infinity;
     // Button K
     private float AttackCooldown_K = 4f;
     private float CooldownTimer_K = Mathf.Infinity;
+
+    private float AttackCooldown_L = 4f;
+    private float CooldownTimer_L = Mathf.Infinity;
     // Button I
     private float AttackCooldown_I = 8f;
     private float CooldownTimer_I = Mathf.Infinity;
     // Button U
     private float AttackCooldown_U = 15f;
     private float CooldownTimer_U = Mathf.Infinity;
+    private float AttackCooldown_O = 10f;
+    private float CooldownTimer_O = Mathf.Infinity;
 
     public CheckpointManager checkpointManager;
+    // public BulletScript bulletScript;
+    // public GameObject[] Vegito_Bullet;
+
+    public GameObject Bullet_Vegito;
+public Transform BulletPos;
+
+
 
 
 
@@ -117,6 +136,8 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_J += Time.deltaTime;
+        cooldownIcon_J.updateCooldown_J(CooldownTimer_J, AttackCooldown_J);
+
         //-----------------------------------------
         if (Input.GetKeyDown(KeyCode.K) == true && CooldownTimer_K > AttackCooldown_K)
         {
@@ -133,6 +154,8 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_K += Time.deltaTime;
+        cooldownIcon_K.updateCooldown_K(CooldownTimer_K, AttackCooldown_K);
+
         ///-------------------------------------------
 
         if (Input.GetKeyDown(KeyCode.I) == true && CooldownTimer_I > AttackCooldown_I)
@@ -150,6 +173,8 @@ public class Playerplay : MonoBehaviour
             }
         }
         CooldownTimer_I += Time.deltaTime;
+        cooldownIcon_I.updateCooldown_I(CooldownTimer_I, AttackCooldown_I);
+        // cooldownIcon.updateCooldown_I(CooldownTimer_I, AttackCooldown_I);
         ///-------------------------------------
 
         if (Input.GetKeyDown(KeyCode.U) == true && CooldownTimer_U > AttackCooldown_U)
@@ -157,6 +182,7 @@ public class Playerplay : MonoBehaviour
             StartCoroutine(PerformSuperAttack());
         }
         CooldownTimer_U += Time.deltaTime;
+        cooldownIcon_U.updateCooldown_U(CooldownTimer_U, AttackCooldown_U);
         //-------------------------------------
 
         if (Input.GetKeyDown(KeyCode.S) == true)
@@ -165,37 +191,105 @@ public class Playerplay : MonoBehaviour
             anim.SetTrigger("Guard");
 
         }
-        if (Input.GetKey(KeyCode.O) == true)
+        if (Input.GetKey(KeyCode.O) == true && CooldownTimer_O > AttackCooldown_O)
         {
-            if (CurrentHP >= MaxHP)
+
+            if (CurrentHP >= MaxHP && CurrentMP >= MaxMP)
             {
+                CooldownTimer_O = 0;
+            }
+            else if (CurrentHP >= MaxHP && CurrentMP <= MaxMP)
+            {
+                //khong tang hp nua nhung van tang mp 
             }
             else
             {
                 ///CurrentMP += 0.015f;
-                CurrentHP += 0.035f;
+                CurrentHP += 0.1f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
+
             }
 
-            if (CurrentMP >= MaxMP)
+            if (CurrentMP >= MaxMP && CurrentHP >= MaxHP)
             {
+                CooldownTimer_O = 0;
+            }
+            else if (CurrentMP >= MaxMP && CurrentHP <= MaxHP)
+            {
+                //khong tang mp nua nhung van tang hp 
             }
             else
             {
                 ///CurrentMP += 0.015f;   
-                CurrentMP += 0.05f;
+                CurrentMP += 0.1f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
+
             }
         }
         else
         {
             anim.SetBool("Manaup", false);
         }
+        CooldownTimer_O += Time.deltaTime;
+        cooldownIcon_O.updateCooldown_O(CooldownTimer_O, AttackCooldown_O);
+
+        //--------------------------------------------Bullet skill
+        Skill_L_bullet();
+
+
 
 
     }
+
+    public void Skill_L_bullet()
+    {
+        if (Input.GetKeyDown(KeyCode.L) == true && CooldownTimer_L > AttackCooldown_L)
+        {
+            float ManaUse = 10;
+            if (ManaUse <= CurrentMP)
+            {
+                CurrentMP -= ManaUse;
+                MPbox.updateMP(CurrentMP, MaxMP);
+                SoundManager.instance.playSound(hitSound);
+                anim.SetTrigger("Bullet");
+                //goi object bullet
+                //--------------------------------------------------
+
+
+                // Gọi Instantiate và lưu lại đối tượng viên đạn được tạo ra
+                GameObject bullet = Instantiate(Bullet_Vegito, BulletPos.position, BulletPos.rotation);
+
+                // Lấy ra script của viên đạn
+                Bullet bulletScript = bullet.GetComponent<Bullet>();
+
+                // Truyền giá trị isFacingRight vào script của viên đạn
+                bulletScript.Initialize(isFacingRight);
+
+
+                // int skillDamage = 3;
+                // AttackDamage(skillDamage);
+                CooldownTimer_L = 0;
+            }
+        }
+        CooldownTimer_L += Time.deltaTime;
+        cooldownIcon_L.updateCooldown_L(CooldownTimer_L, AttackCooldown_L);
+    }
+
+    // public int FindVegito_Bullet()
+    // {
+    //     for (int i = 0; i < Vegito_Bullet.Length; i++)
+    //     {
+    //         if (!Vegito_Bullet[i].activeInHierarchy)
+
+    //         {
+    //             return i;
+    //         }
+    //     }
+
+    //     return 0;
+    // }
     IEnumerator PerformSuperAttack()
     {
         float ManaUse = 85;
