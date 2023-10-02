@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
         isFacingRight = facingRight;
         // Đặt hướng viên đạn dựa trên giá trị của isFacingRight
         BulletScale(isFacingRight);
-        StartCoroutine(DestroyAfterDelay(2.5f));
+        StartCoroutine(DestroyAfterDelay(1f));
 
     }
     public void BulletScale(bool isFacingRight)
@@ -58,6 +58,7 @@ public class Bullet : MonoBehaviour
 
     IEnumerator DestroyAfterDelay(float delay)
     {
+        
         yield return new WaitForSeconds(delay);
         Destroy(gameObject);
     }
@@ -89,14 +90,7 @@ public class Bullet : MonoBehaviour
 
     }
 
-    // private void OnTriggerEnter2D(Collider2D collison)
-    // {
-    //     BulletAttack();
-    //     BulletAnim.SetTrigger("Destroy");
-    //     Rigidbody2D rb = GetComponent<Rigidbody2D>();
-    //     Destroy(gameObject);
 
-    // }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!hit && collision.CompareTag("Enemy")) // Kiểm tra xem đã va chạm và collider là của đối tượng Enemy
@@ -119,7 +113,7 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    // ... (các phương thức khác)
+
 
 
 
