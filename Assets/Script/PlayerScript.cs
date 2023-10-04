@@ -434,6 +434,7 @@ public Transform BulletPos;
             npc = collision.gameObject.GetComponent<NPC_Controller>();
            
             if (Input.GetKey(KeyCode.E))
+            //anim.SetTrigger("Idle");
                npc.ActivateDialogue();
         }
     }
