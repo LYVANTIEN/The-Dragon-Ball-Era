@@ -98,7 +98,7 @@ public Transform BulletPos;
         if (!inDialogue())
         {
             Move();
-            Debug.Log(leftright);
+            //Debug.Log(leftright);
             Attack();
             Jump();
             StartCoroutine(PlayerDie());
