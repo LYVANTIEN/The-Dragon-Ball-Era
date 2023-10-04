@@ -9,6 +9,7 @@ using UnityEngine;
 
 public class Playerplay : MonoBehaviour
 {
+
     public Rigidbody2D rb;
     public Animator anim;
     private AudioSource AttackAudio;
@@ -69,6 +70,7 @@ public class Playerplay : MonoBehaviour
     private float AttackCooldown_O = 10f;
     private float CooldownTimer_O = Mathf.Infinity;
 
+    private NPC_Controller npc;
     public CheckpointManager checkpointManager;
     // public BulletScript bulletScript;
     // public GameObject[] Vegito_Bullet;
@@ -92,12 +94,24 @@ public Transform BulletPos;
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Attack();
-        Jump();
-        StartCoroutine(PlayerDie());
 
-
+        if (!inDialogue())
+        {
+            Move();
+            Debug.Log(leftright);
+            Attack();
+            Jump();
+            StartCoroutine(PlayerDie());
+        }
+    }
+    private bool inDialogue()
+    {
+        if (npc != null)
+        { return npc.DialogueActive(); }
+        else
+        {
+            return false;
+        }
     }
     public void Move()
     {
@@ -412,11 +426,26 @@ public Transform BulletPos;
         }
     }
 
+  
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "NPC")
+        {
+            npc = collision.gameObject.GetComponent<NPC_Controller>();
+           
+            if (Input.GetKey(KeyCode.E))
+               npc.ActivateDialogue();
+        }
+    }
     private void OnTriggerExit2D(Collider2D otherhitbox)
     {
+        npc = null;
         if (otherhitbox.gameObject.tag == "Ground")
         {
             canJump = false;
         }
+
     }
+
+   
 }
