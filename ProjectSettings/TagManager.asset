@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - NPC
+  - Enemy
+  - MapItem
   layers:
   - Default
   - TransparentFX

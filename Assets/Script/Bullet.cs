@@ -16,6 +16,7 @@ public class Bullet : MonoBehaviour
     /// 
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
+    public LayerMask WhatIsMapItem;
     public float attackRangeX;
     public float attackRangeY;
     public int BulletDamage;
@@ -58,7 +59,7 @@ public class Bullet : MonoBehaviour
 
     IEnumerator DestroyAfterDelay(float delay)
     {
-        
+
         yield return new WaitForSeconds(delay);
         Destroy(gameObject);
     }
@@ -77,6 +78,11 @@ public class Bullet : MonoBehaviour
         for (int i = 0; i < enemiesToDamage.Length; i++)
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(BulletDamage * skillDamage);
+        }
+         Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
+        for (int i = 0; i < MapItemToDamage.Length; i++)
+        {
+            MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(BulletDamage * skillDamage);
         }
     }
 
@@ -111,6 +117,25 @@ public class Bullet : MonoBehaviour
             // Chạy animation và destroy viên đạn sau khoảng thời gian
             StartCoroutine(DestroyAfterDelay(0.5f)); // Thay thế 0.5f bằng thời gian bạn muốn
         }
+        if (!hit && collision.CompareTag("Ground")) // Kiểm tra xem đã va chạm và collider là của đối tượng Enemy
+        {
+            hit = true; // Đánh dấu rằng viên đạn đã va chạm
+
+            // Giữ yên vị của viên đạn tại vị trí va chạm
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                rb.velocity = Vector2.zero;
+                rb.isKinematic = true;
+            }
+
+            // Gọi hàm tấn công
+            BulletAttack();
+            BulletAnim.SetTrigger("Destroy");
+            // Chạy animation và destroy viên đạn sau khoảng thời gian
+            StartCoroutine(DestroyAfterDelay(0.5f)); // Thay thế 0.5f bằng thời gian bạn muốn
+        }
+
     }
 
 
