@@ -9,6 +9,7 @@ using UnityEngine;
 
 public class Playerplay : MonoBehaviour
 {
+
     public Rigidbody2D rb;
     public Animator anim;
     private AudioSource AttackAudio;
@@ -38,6 +39,7 @@ public class Playerplay : MonoBehaviour
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
     public LayerMask WhatIsMapItem;
+    public LayerMask WhatIsBoss;
     public float attackRangeX;
     public float attackRangeY;
     public int PlayerDamage;
@@ -69,12 +71,13 @@ public class Playerplay : MonoBehaviour
     private float AttackCooldown_O = 10f;
     private float CooldownTimer_O = Mathf.Infinity;
 
+    private NPC_Controller npc;
     public CheckpointManager checkpointManager;
     // public BulletScript bulletScript;
     // public GameObject[] Vegito_Bullet;
 
     public GameObject Bullet_Vegito;
-public Transform BulletPos;
+    public Transform BulletPos;
 
 
 
@@ -92,12 +95,24 @@ public Transform BulletPos;
     // Update is called once per frame
     void Update()
     {
-        Move();
-        Attack();
-        Jump();
-        StartCoroutine(PlayerDie());
 
-
+        if (!inDialogue())
+        {
+            Move();
+            //Debug.Log(leftright);
+            Attack();
+            Jump();
+            StartCoroutine(PlayerDie());
+        }
+    }
+    private bool inDialogue()
+    {
+        if (npc != null)
+        { return npc.DialogueActive(); }
+        else
+        {
+            return false;
+        }
     }
     public void Move()
     {
@@ -123,7 +138,7 @@ public Transform BulletPos;
         //---------------------------------Button J
         if (Input.GetKeyDown(KeyCode.J) == true && CooldownTimer_J > AttackCooldown_J)
         {
-            float ManaUse = 5;
+            float ManaUse = 0;
             if (ManaUse <= CurrentMP)
             {
                 CurrentMP -= ManaUse;
@@ -204,7 +219,7 @@ public Transform BulletPos;
             }
             else
             {
-                ///CurrentMP += 0.015f;
+
                 CurrentHP += 0.1f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
@@ -221,7 +236,7 @@ public Transform BulletPos;
             }
             else
             {
-                ///CurrentMP += 0.015f;   
+
                 CurrentMP += 0.1f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
@@ -317,6 +332,11 @@ public Transform BulletPos;
             {
                 MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(PlayerDamage * skillDamage);
             }
+            Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsBoss);
+            for (int i = 0; i < BossToDamage.Length; i++)
+            {
+                BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
+            }
             CooldownTimer_U = 0;
         }
     }
@@ -343,6 +363,12 @@ public Transform BulletPos;
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
         }
+        Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsBoss);
+        for (int i = 0; i < BossToDamage.Length; i++)
+        {
+            BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
+        }
+
 
         //
         Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
@@ -412,11 +438,27 @@ public Transform BulletPos;
         }
     }
 
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "NPC")
+        {
+            npc = collision.gameObject.GetComponent<NPC_Controller>();
+
+            if (Input.GetKey(KeyCode.E))
+                //anim.SetTrigger("Idle");
+                npc.ActivateDialogue();
+        }
+    }
     private void OnTriggerExit2D(Collider2D otherhitbox)
     {
+        npc = null;
         if (otherhitbox.gameObject.tag == "Ground")
         {
             canJump = false;
         }
+
     }
+
+
 }
