@@ -5289,7 +5289,7 @@ MonoBehaviour:
   leftright: 0
   isFacingRight: 1
   flapchange: 10
-  dashchange: 20
+  dashchange: 30
   canJump: 0
   canDoubleJump: 0
   hitSound: {fileID: 8300000, guid: 50faf363e56e2c84089e56b07b609bf6, type: 3}
@@ -5306,7 +5306,7 @@ MonoBehaviour:
     m_Bits: 256
   attackRangeX: 1.2
   attackRangeY: 1.4
-  PlayerDamage: 5
+  PlayerDamage: 2
   cooldownIcon_J: {fileID: 634594128}
   cooldownIcon_K: {fileID: 1028700282}
   cooldownIcon_I: {fileID: 1248761084}
