@@ -39,6 +39,7 @@ public class Playerplay : MonoBehaviour
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
     public LayerMask WhatIsMapItem;
+    public LayerMask WhatIsBoss;
     public float attackRangeX;
     public float attackRangeY;
     public int PlayerDamage;
@@ -76,7 +77,7 @@ public class Playerplay : MonoBehaviour
     // public GameObject[] Vegito_Bullet;
 
     public GameObject Bullet_Vegito;
-public Transform BulletPos;
+    public Transform BulletPos;
 
 
 
@@ -137,7 +138,7 @@ public Transform BulletPos;
         //---------------------------------Button J
         if (Input.GetKeyDown(KeyCode.J) == true && CooldownTimer_J > AttackCooldown_J)
         {
-            float ManaUse = 5;
+            float ManaUse = 0;
             if (ManaUse <= CurrentMP)
             {
                 CurrentMP -= ManaUse;
@@ -218,7 +219,7 @@ public Transform BulletPos;
             }
             else
             {
-               
+
                 CurrentHP += 0.1f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
@@ -235,7 +236,7 @@ public Transform BulletPos;
             }
             else
             {
-           
+
                 CurrentMP += 0.1f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
@@ -331,6 +332,11 @@ public Transform BulletPos;
             {
                 MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(PlayerDamage * skillDamage);
             }
+            Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(7, attackRangeY), 0, WhatIsBoss);
+            for (int i = 0; i < BossToDamage.Length; i++)
+            {
+                BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
+            }
             CooldownTimer_U = 0;
         }
     }
@@ -357,6 +363,12 @@ public Transform BulletPos;
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(PlayerDamage * skillDamage);
         }
+        Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsBoss);
+        for (int i = 0; i < BossToDamage.Length; i++)
+        {
+            BossToDamage[i].GetComponent<FideBoss>().TakeDamage(PlayerDamage * skillDamage);
+        }
+
 
         //
         Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
@@ -426,16 +438,16 @@ public Transform BulletPos;
         }
     }
 
-  
+
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "NPC")
+        if (collision.gameObject.tag == "NPC")
         {
             npc = collision.gameObject.GetComponent<NPC_Controller>();
-           
+
             if (Input.GetKey(KeyCode.E))
-            //anim.SetTrigger("Idle");
-               npc.ActivateDialogue();
+                //anim.SetTrigger("Idle");
+                npc.ActivateDialogue();
         }
     }
     private void OnTriggerExit2D(Collider2D otherhitbox)
@@ -448,5 +460,5 @@ public Transform BulletPos;
 
     }
 
-   
+
 }

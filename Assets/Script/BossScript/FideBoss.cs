@@ -7,32 +7,43 @@ public class FideBoss : MonoBehaviour
 {
     private AudioSource AttackAudio;
 
-    public Animator FideBossAnim;
+    public HP_MP HPbox;
+    public float CurrentHP;
+    public float MaxHP = 30;
+
+    public float speed = 3;
+    public Animator EnemyAnim;
     public Rigidbody2D EnemyRigid;
     public float chaseDistance; // Khoảng cách để bắt đầu đuổi theo player
     private Transform player;
 
     public AudioClip hitSound;
-    public Transform AttackPos;
-    public LayerMask WhatIsPlayer;
 
-    public int health;
-    public float speed = 3;
+
 
     /// Enemy Attack
     /// 
     /// 
+    /// 
 
+    public Transform AttackPos;
+    public LayerMask WhatIsPlayer;
     public float attackRangeX;
     public float attackRangeY;
     public int EnemyDamage;
     public float AttackCooldown_J;
     private float CooldownTimer_J = Mathf.Infinity;
+    public float AttackCooldown_1;
+    private float CooldownTimer_1 = Mathf.Infinity;
+    public float AttackCooldown_2;
+    private float CooldownTimer_2 = Mathf.Infinity;
     // Start is called before the first frame update
     void Start()
     {
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        CurrentHP = MaxHP;
+        HPbox.updateHP(CurrentHP, MaxHP);
     }
 
     void Update()
@@ -40,7 +51,7 @@ public class FideBoss : MonoBehaviour
 
         //----------------------
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-       // EnemyAnim.SetFloat("Move", 0);
+        EnemyAnim.SetFloat("Move", 0);
 
         if (distanceToPlayer < chaseDistance)
         {
@@ -51,6 +62,7 @@ public class FideBoss : MonoBehaviour
             if (directionfollow.x < 0)
             {
                 // Player ở bên trái enemy, quay về bên trái
+
                 transform.localScale = new Vector2(-1, 1);
             }
             else if (directionfollow.x > 0)
@@ -61,13 +73,14 @@ public class FideBoss : MonoBehaviour
 
             // Di chuyển enemy
 
-            //EnemyAnim.SetFloat("Move", 1);
+            EnemyAnim.SetFloat("Move", 1);
             transform.Translate(directionfollow * speed * Time.deltaTime);
 
             if (Mathf.Abs(player.position.x - transform.position.x) < 1f)
             {
                 // Nếu player ở gần enemy theo trục X
                 EnemyAttack();
+                StartCoroutine(AfterDelay(1f));
             }
         }
         //---------------------------
@@ -83,18 +96,35 @@ public class FideBoss : MonoBehaviour
 
             int skillDamage = 1;
             SoundManager.instance.playSound(hitSound);
-            //EnemyAnim.SetTrigger("Attack");
+            EnemyAnim.SetTrigger("Attack");
             AttackDamage(skillDamage);
             CooldownTimer_J = 0;
 
         }
         CooldownTimer_J += Time.deltaTime;
+
+        if (CooldownTimer_1 > AttackCooldown_1)
+        {
+
+            int skillDamage = 3;
+            SoundManager.instance.playSound(hitSound);
+            EnemyAnim.SetTrigger("Attack1");
+            AttackDamage(skillDamage);
+            CooldownTimer_1 = 0;
+
+
+        }
+        CooldownTimer_1 += Time.deltaTime;
+
     }
     public void OnDrawGizmosSelected()
     {
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(AttackPos.position, new Vector3(attackRangeX, attackRangeY, 1));
+
+
+
     }
     public void AttackDamage(int skillDamage)
     {
@@ -109,18 +139,24 @@ public class FideBoss : MonoBehaviour
 
     IEnumerator EnemyDie()
     {
-        if (health <= 0)
+        if (CurrentHP <= 0)
         {
-           // EnemyAnim.SetTrigger("Die");
+            EnemyAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
             gameObject.SetActive(false);
         }
     }
     public void TakeDamage(int damage)
     {
-       // EnemyAnim.SetTrigger("Takehit");
-        health -= damage;
+        EnemyAnim.SetTrigger("Takehit");
+        CurrentHP -= damage;
+        HPbox.updateHP(CurrentHP, MaxHP);
         Debug.Log("Damage Taken!!!!!" + damage);
+    }
+
+    IEnumerator AfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
     }
 
     internal void TakeDamage(object damage)

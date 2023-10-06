@@ -17,6 +17,7 @@ public class Bullet : MonoBehaviour
     public Transform AttackPos;
     public LayerMask WhatIsEnemies;
     public LayerMask WhatIsMapItem;
+    public LayerMask WhatIsBoss;
     public float attackRangeX;
     public float attackRangeY;
     public int BulletDamage;
@@ -79,11 +80,17 @@ public class Bullet : MonoBehaviour
         {
             enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(BulletDamage * skillDamage);
         }
-         Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
+        Collider2D[] BossToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsBoss);
+        for (int i = 0; i < BossToDamage.Length; i++)
+        {
+            BossToDamage[i].GetComponent<FideBoss>().TakeDamage(BulletDamage * skillDamage);
+        }
+        Collider2D[] MapItemToDamage = Physics2D.OverlapBoxAll(AttackPos.position, new Vector2(attackRangeX, attackRangeY), 0, WhatIsMapItem);
         for (int i = 0; i < MapItemToDamage.Length; i++)
         {
             MapItemToDamage[i].GetComponent<MapItem>().TakeDamage(BulletDamage * skillDamage);
         }
+
     }
 
     public void OnDrawGizmosSelected()
