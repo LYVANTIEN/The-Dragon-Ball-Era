@@ -218,7 +218,7 @@ public Transform BulletPos;
             }
             else
             {
-                ///CurrentMP += 0.015f;
+               
                 CurrentHP += 0.1f;
                 HPbox.updateHP(CurrentHP, MaxHP);
                 anim.SetBool("Manaup", true);
@@ -235,7 +235,7 @@ public Transform BulletPos;
             }
             else
             {
-                ///CurrentMP += 0.015f;   
+           
                 CurrentMP += 0.1f;
                 MPbox.updateMP(CurrentMP, MaxMP);
                 anim.SetBool("Manaup", true);
