@@ -5285,11 +5285,11 @@ MonoBehaviour:
   MaxHP: 100
   CurrentMP: 0
   MaxMP: 100
-  speed: 2
+  speed: 5
   leftright: 0
   isFacingRight: 1
   flapchange: 10
-  dashchange: 30
+  dashchange: 20
   canJump: 0
   canDoubleJump: 0
   hitSound: {fileID: 8300000, guid: 50faf363e56e2c84089e56b07b609bf6, type: 3}
