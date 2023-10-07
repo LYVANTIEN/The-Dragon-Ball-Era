@@ -281,10 +281,7 @@ public class Playerplay : MonoBehaviour
 
                 // Truyền giá trị isFacingRight vào script của viên đạn
                 bulletScript.Initialize(isFacingRight);
-
-
-                // int skillDamage = 3;
-                // AttackDamage(skillDamage);
+                
                 CooldownTimer_L = 0;
             }
         }

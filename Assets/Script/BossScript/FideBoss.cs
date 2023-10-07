@@ -19,7 +19,7 @@ public class FideBoss : MonoBehaviour
 
     public AudioClip hitSound;
 
-
+    public bool isFacingRight = false;
 
     /// Enemy Attack
     /// 
@@ -38,6 +38,9 @@ public class FideBoss : MonoBehaviour
     public float AttackCooldown_2;
     private float CooldownTimer_2 = Mathf.Infinity;
     // Start is called before the first frame update
+    public GameObject Bullet_Boss;
+
+
     void Start()
     {
 
@@ -46,10 +49,26 @@ public class FideBoss : MonoBehaviour
         HPbox.updateHP(CurrentHP, MaxHP);
     }
 
+
+
     void Update()
     {
 
         //----------------------
+        StartCoroutine(DelayedMove());
+        //---------------------------
+
+
+        StartCoroutine(EnemyDie());
+    }
+
+    IEnumerator DelayedMove()
+    {
+        yield return new WaitForSeconds(1.5f);
+        BossMove();
+    }
+    public void BossMove()
+    {
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
         EnemyAnim.SetFloat("Move", 0);
 
@@ -62,15 +81,19 @@ public class FideBoss : MonoBehaviour
             if (directionfollow.x < 0)
             {
                 // Player ở bên trái enemy, quay về bên trái
-
+                isFacingRight = false;
                 transform.localScale = new Vector2(-1, 1);
+
             }
             else if (directionfollow.x > 0)
             {
                 // Player ở bên phải enemy, quay về bên phải
+                isFacingRight = true;
                 transform.localScale = new Vector2(1, 1);
+
             }
 
+            StartCoroutine(DelayedEnemyAttack_2());
             // Di chuyển enemy
 
             EnemyAnim.SetFloat("Move", 1);
@@ -79,16 +102,12 @@ public class FideBoss : MonoBehaviour
             if (Mathf.Abs(player.position.x - transform.position.x) < 1f)
             {
                 // Nếu player ở gần enemy theo trục X
-                EnemyAttack();
-                StartCoroutine(AfterDelay(1f));
+                EnemyAttack_J();
+                StartCoroutine(DelayedEnemyAttack());
             }
         }
-        //---------------------------
-
-
-        StartCoroutine(EnemyDie());
     }
-    public void EnemyAttack()
+    public void EnemyAttack_J()
     {
 
         if (CooldownTimer_J > AttackCooldown_J)
@@ -103,10 +122,19 @@ public class FideBoss : MonoBehaviour
         }
         CooldownTimer_J += Time.deltaTime;
 
+    }
+    IEnumerator DelayedEnemyAttack()
+    {
+        yield return new WaitForSeconds(1.5f);
+        EnemyAttack_1();
+    }
+    public void EnemyAttack_1()
+    {
+
         if (CooldownTimer_1 > AttackCooldown_1)
         {
 
-            int skillDamage = 3;
+            int skillDamage = 2;
             SoundManager.instance.playSound(hitSound);
             EnemyAnim.SetTrigger("Attack1");
             AttackDamage(skillDamage);
@@ -117,6 +145,35 @@ public class FideBoss : MonoBehaviour
         CooldownTimer_1 += Time.deltaTime;
 
     }
+    IEnumerator DelayedEnemyAttack_2()
+    {
+        yield return new WaitForSeconds(1f);
+        EnemyAttack_2();
+    }
+
+    public void EnemyAttack_2()
+    {
+
+        if (CooldownTimer_2 > AttackCooldown_2 && CurrentHP <= MaxHP * 0.7f)
+        {
+
+
+            EnemyAnim.SetTrigger("Attack2");
+            GameObject bullet = Instantiate(Bullet_Boss, AttackPos.position, transform.rotation);
+
+            // Lấy ra script của viên đạn
+            BossBullet bulletScript = bullet.GetComponent<BossBullet>();
+
+            // Truyền giá trị isFacingRight vào script của viên đạn
+            bulletScript.Initialize(isFacingRight);
+            CooldownTimer_2 = 0;
+
+
+        }
+        CooldownTimer_2 += Time.deltaTime;
+
+    }
+
     public void OnDrawGizmosSelected()
     {
 

@@ -4705,7 +4705,7 @@ Transform:
   m_GameObject: {fileID: 931081309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.58, y: -1.3599998, z: -10}
+  m_LocalPosition: {x: -54.22, y: -1.7099997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1.1768}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7007,6 +7007,9 @@ MonoBehaviour:
   WhatIsMapItem:
     serializedVersion: 2
     m_Bits: 128
+  WhatIsBoss:
+    serializedVersion: 2
+    m_Bits: 256
   attackRangeX: 1.2
   attackRangeY: 1.4
   PlayerDamage: 2
@@ -7016,7 +7019,7 @@ MonoBehaviour:
   cooldownIcon_U: {fileID: 1214877932}
   cooldownIcon_O: {fileID: 639436224}
   cooldownIcon_L: {fileID: 1568138137}
-  checkpointManager: {fileID: 0}
+  checkpointManager: {fileID: 1866020346}
   Bullet_Vegito: {fileID: 893427009390787146, guid: 8c46af6e5720a1e40887745437bafc94, type: 3}
   BulletPos: {fileID: 966007365}
 --- !u!70 &1445034758
@@ -7208,7 +7211,7 @@ Transform:
   m_GameObject: {fileID: 1445034756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.58, y: -2.66, z: 0}
+  m_LocalPosition: {x: -54.22, y: -3.01, z: 0}
   m_LocalScale: {x: 1.0519943, y: 1.0818356, z: 1.1984442}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9335,6 +9338,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2001198390}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1866020346 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 981564906314229488, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+  m_PrefabInstance: {fileID: 193313009826139087}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9217f486fe23202479fff28d42ddfa47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1868036318
 GameObject:
   m_ObjectHideFlags: 0
@@ -10831,10 +10845,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map
       objectReference: {fileID: 0}
+    - target: {fileID: 2839420638171939872, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -43.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839420638171939872, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -37.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4947207490636490899, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6176774588449068572, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
       propertyPath: dialogue
       value: 
       objectReference: {fileID: 1649788327}
+    - target: {fileID: 6631274576501150038, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1445034757}
+    - target: {fileID: 6631274576501150038, guid: 1ad01bcc23ff23d449ccda20cd0180f4, type: 3}
+      propertyPath: nameScene
+      value: Map1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
