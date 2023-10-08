@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CooldownIcon : MonoBehaviour
 {
-    public Image Cooldown_J; 
+    public Image Cooldown_J;
     public Image Cooldown_K;
     public Image Cooldown_I;
     public Image Cooldown_U;
