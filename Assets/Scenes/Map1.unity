@@ -1151,6 +1151,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253836318}
   m_CullTransparentMesh: 1
+--- !u!1001 &278539031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -50.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 660553709693191057, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241782396054630845, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: m_Name
+      value: MajinBuu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907444256609739384, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: MaxHP
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907444256609739384, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
+      propertyPath: CurrentHP
+      value: 150
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4f769a806af09c4fb7bb9db65020a0b, type: 3}
 --- !u!1 &306787965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,7 +5959,7 @@ MonoBehaviour:
     m_Bits: 256
   attackRangeX: 1.2
   attackRangeY: 1.4
-  PlayerDamage: 5
+  PlayerDamage: 2
   cooldownIcon_J: {fileID: 634594128}
   cooldownIcon_K: {fileID: 1028700282}
   cooldownIcon_I: {fileID: 1248761084}
@@ -49078,3 +49143,4 @@ SceneRoots:
   - {fileID: 63414461}
   - {fileID: 605463783}
   - {fileID: 2749474624128711921}
+  - {fileID: 278539031}
