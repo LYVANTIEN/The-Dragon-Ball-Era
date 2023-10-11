@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4907444256609739384}
   - component: {fileID: 1343083281210188782}
   m_Layer: 8
-  m_Name: FideBoss
+  m_Name: Beerus
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: 144016512, guid: 92f9a358e1291ac4c86699b0b0627f67, type: 3}
+  m_Sprite: {fileID: 1349472855, guid: ed3adeceb7b4829499a5130453451a42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.031407267, y: 0.0063228607}
+  m_Offset: {x: -0.25138837, y: 0.01786995}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 2.15}
+    oldSize: {x: 1.4230769, y: 2.2307692}
     newSize: {x: 6.25, y: 6.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.992516, y: 2.1074944}
+  m_Size: {x: 0.9040278, y: 2.0844002}
   m_EdgeRadius: 0
 --- !u!50 &7545080068343672074
 Rigidbody2D:
@@ -173,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 4241782396054630845}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9ee2a595bca8e0b4f8f04ea5b43da3db, type: 2}
+  m_Controller: {fileID: 9100000, guid: e5210bc8ef3af1449a329e7f3ec41316, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HPbox: {fileID: 4917118788552372138}
-  CurrentHP: 200
-  MaxHP: 200
+  CurrentHP: 250
+  MaxHP: 250
   EnemyAnim: {fileID: 2175033273354902409}
 --- !u!114 &1343083281210188782
 MonoBehaviour:
@@ -224,11 +224,11 @@ MonoBehaviour:
     m_Bits: 64
   attackRangeX: 1.3
   attackRangeY: 1.3
-  EnemyDamage: 7
+  EnemyDamage: 10
   AttackCooldown_J: 3
   AttackCooldown_1: 10
   AttackCooldown_2: 15
-  Bullet_Boss: {fileID: 8839176758555842493, guid: abfe6bb76c7078b439a569d893f5efa8, type: 3}
+  Bullet_Boss: {fileID: 5672970425149066960, guid: f12ca1cc608e98547be7235794cdf1be, type: 3}
 --- !u!1 &5204194177279340827
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.01, y: 0.492}
+  m_AnchoredPosition: {x: -0.21, y: 0.51}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3854975176315662686
