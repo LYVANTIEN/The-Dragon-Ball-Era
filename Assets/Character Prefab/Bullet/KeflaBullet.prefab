@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8851676728947255213}
   - component: {fileID: 8996516553112492916}
   m_Layer: 0
-  m_Name: BuuBullet
+  m_Name: KeflaBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 886516870, guid: 5cc8699815523064b960508c7f70131f, type: 3}
+  m_Sprite: {fileID: 1710095055, guid: 79dee27750a7aec429084b8f3f34ce32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -125,7 +125,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.0138888, y: 2.0277777}
+    oldSize: {x: 2.5384614, y: 2.5}
     newSize: {x: 0.7266667, y: 0.68666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -171,7 +171,7 @@ Animator:
   m_GameObject: {fileID: 5672970425149066960}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7fccbe299b730748a530b047cf7fe6a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4b62fa3f6060c3f4ba339c01730b2f2e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

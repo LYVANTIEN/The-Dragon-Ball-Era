@@ -236,3 +236,4 @@ MonoBehaviour:
   attackRangeX: 1
   attackRangeY: 0.7
   BossBulletDamage: 30
+  DestroyTime: 2

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 26
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,994 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Kefla 3_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 502
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afee47c949bb1fb4cb9360023e2549a3
+      internalID: -79217975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 502
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6bc68f245e90449b2e08d4a072eda4
+      internalID: -1041853160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 531
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80c1ec159137b44a002925b9e45ff3
+      internalID: 499954093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 502
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dce32aa9f99ff41b8cb1de909db84a
+      internalID: -1613470008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 502
+        width: 68
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee03d7db9154f3429dec9754a1b1e47
+      internalID: -287811601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 502
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7003deb91be559648918b27d631fe423
+      internalID: -1438492284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 494
+        width: 101
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d489bc0c7dcf8f459f3dfbf0c419bd7
+      internalID: 6057938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 502
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a5d00812d8dce4b92833c81185f916
+      internalID: 1317249621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 495
+        width: 91
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de399b12afa884381d30235baafee7
+      internalID: -742210865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 515
+        width: 114
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2855e487b941f104ab95c3a010d6d081
+      internalID: 1299875402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 328
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f55b752e71f0944a82f0bb5b0ce9151
+      internalID: 1888482330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 328
+        width: 131
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da88cf52d74f1a94981e74ea075bca2b
+      internalID: -321685575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 328
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed538e382667814b8ef1b6f5785f814
+      internalID: -1681469670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 328
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4617cae6773d642b47a5322d2a9fde
+      internalID: -1928040508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 328
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8e5acf9799444580a2880615eadf1
+      internalID: -573866373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 328
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affae2cbfb352b04b8ae63b8418a58e8
+      internalID: 2007922222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_16
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 328
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a06628fa8b6c740bf0c934f1974b86
+      internalID: -549717919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_17
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 294
+        width: 234
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a81bf30b9527554c97e60ab3a00b6fd
+      internalID: 419514672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 204
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9e7751d38a9084cb19e4bd91c22e03
+      internalID: -1958108816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 204
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc98cc31d27b1142895be6af439d620
+      internalID: -339420627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 204
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc820b3915360a41a3f2c4f5ce7b1a6
+      internalID: 568553489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 219
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806564f682476fc43ac17a6077508eca
+      internalID: 1923961968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 199
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da65e67a9105f284ba076212482da234
+      internalID: -1204783749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 236
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97deaea9ea7d6744cb665f2b2494bd17
+      internalID: 30401237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 232
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23343c7e1e29fa4ab0cd8fb499b6929
+      internalID: 1373919102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_30
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 204
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d732b6bab44b348bfb24e3dd980896
+      internalID: 316986785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_31
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 204
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8fd018f7f2c834283c6e75d5d1097f
+      internalID: -1065067661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_32
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 52
+        width: 259
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eb00294f8eb9f4da6b8db89fcedaf1
+      internalID: -764585035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_33
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 140
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac7798bb37753547a23c373a48e45da
+      internalID: 1315486236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 228
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f31fa955397d043a8903ba57ca78f5
+      internalID: -88747034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_35
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 228
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5baaa152b8e2c4ebc635480b6b2584
+      internalID: 279503464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_36
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 225
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd2fc4a77a4e2b4d9df3750365e518b
+      internalID: -1367357124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e08fc5b09f0e947bdbc618e90a570d
+      internalID: -117846806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 221
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a937e7c33b18c64ab90316a3a8a87df
+      internalID: -1656301111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 221
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8816a37276d19d447b21d4cd1d5affc9
+      internalID: -758558411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 217
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce1c752352d3f148b6351236e0ee0f5
+      internalID: -1298380020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f2c116611cb944b4e287c337b3024
+      internalID: 1062109159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 213
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c393380c48a2d1a41b26f0d7a25de442
+      internalID: 767883055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_43
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e6e364f8ccaba4db9d2ddd091c982e
+      internalID: -1171252495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 46
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0e509a98316e4b865f44d95eb14f8
+      internalID: -1481530418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 46
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7482b835faa54e8d69656a9f28c21
+      internalID: 1587026925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 46
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238686c7375b81946b4264c976fa0999
+      internalID: 1926798992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 65
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441a1233c0b453d4d9cb2bf6d69cc0c1
+      internalID: -340813780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_48
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 46
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290122a523d06aa4993542f40957c2fa
+      internalID: 816730493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_49
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 46
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359021f1b765e848874dd0ed78c16ff
+      internalID: 1768526497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_50
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 43
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a741c030119b3343b8ff598b05af943
+      internalID: -1198612441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kefla 3_51
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 43
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69baf976a2a27542baa74661ce8ac45
+      internalID: -976063210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1119,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kefla 3_0: -79217975
+      Kefla 3_1: -1041853160
+      Kefla 3_10: 1888482330
+      Kefla 3_11: -321685575
+      Kefla 3_12: -1681469670
+      Kefla 3_13: -1928040508
+      Kefla 3_14: -573866373
+      Kefla 3_15: 2007922222
+      Kefla 3_16: -549717919
+      Kefla 3_17: 419514672
+      Kefla 3_18: -1701844152
+      Kefla 3_19: -875653430
+      Kefla 3_2: 499954093
+      Kefla 3_20: 979850782
+      Kefla 3_21: 1576881320
+      Kefla 3_22: -1958108816
+      Kefla 3_23: -339420627
+      Kefla 3_24: 568553489
+      Kefla 3_25: 1923961968
+      Kefla 3_26: -1204783749
+      Kefla 3_27: 30401237
+      Kefla 3_28: 112742110
+      Kefla 3_29: 1373919102
+      Kefla 3_3: -1613470008
+      Kefla 3_30: 316986785
+      Kefla 3_31: -1065067661
+      Kefla 3_32: -764585035
+      Kefla 3_33: 1315486236
+      Kefla 3_34: -88747034
+      Kefla 3_35: 279503464
+      Kefla 3_36: -1367357124
+      Kefla 3_37: -117846806
+      Kefla 3_38: -1656301111
+      Kefla 3_39: -758558411
+      Kefla 3_4: -287811601
+      Kefla 3_40: -1298380020
+      Kefla 3_41: 1062109159
+      Kefla 3_42: 767883055
+      Kefla 3_43: -1171252495
+      Kefla 3_44: -1481530418
+      Kefla 3_45: 1587026925
+      Kefla 3_46: 1926798992
+      Kefla 3_47: -340813780
+      Kefla 3_48: 816730493
+      Kefla 3_49: 1768526497
+      Kefla 3_5: -1438492284
+      Kefla 3_50: -1198612441
+      Kefla 3_51: -976063210
+      Kefla 3_6: 6057938
+      Kefla 3_7: 1317249621
+      Kefla 3_8: -742210865
+      Kefla 3_9: 1299875402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -21,7 +21,7 @@ public class BossBullet : MonoBehaviour
     private bool isFacingRight;
     private bool hit = false;
 
-
+    public float DestroyTime;
     void Start()
     {
 
@@ -37,7 +37,7 @@ public class BossBullet : MonoBehaviour
         isFacingRight = facingRight;
         // Đặt hướng viên đạn dựa trên giá trị của isFacingRight
         BulletScale(isFacingRight);
-        StartCoroutine(DestroyAfterDelay(1f));
+        StartCoroutine(DestroyAfterDelay(DestroyTime));
 
     }
     public void BulletScale(bool isFacingRight)
@@ -111,6 +111,6 @@ public class BossBullet : MonoBehaviour
             // Chạy animation và destroy viên đạn sau khoảng thời gian
             StartCoroutine(DestroyAfterDelay(0.5f)); // Thay thế 0.5f bằng thời gian bạn muốn
         }
-       
+
     }
 }
