@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4907444256609739384}
   - component: {fileID: 1343083281210188782}
   m_Layer: 8
-  m_Name: MajinBuu
+  m_Name: Beerus_1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: 1451499612, guid: 292f7f9ad021e4342840d9710b4b092d, type: 3}
+  m_Sprite: {fileID: 1349472855, guid: ed3adeceb7b4829499a5130453451a42, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.024847, y: 0.07792091}
+  m_Offset: {x: -0.25138837, y: 0.01786995}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0714285, y: 1.9285715}
+    oldSize: {x: 1.4230769, y: 2.2307692}
     newSize: {x: 6.25, y: 6.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.88000745, y: 1.9642982}
+  m_Size: {x: 0.9040278, y: 2.0844002}
   m_EdgeRadius: 0
 --- !u!50 &7545080068343672074
 Rigidbody2D:
@@ -173,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 4241782396054630845}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c1d41196824e9d5458b547c1004279ab, type: 2}
+  m_Controller: {fileID: 9100000, guid: e5210bc8ef3af1449a329e7f3ec41316, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -212,10 +212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2b5903b6095d34698ed27f47140f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 2.5
   EnemyAnim: {fileID: 2175033273354902409}
   EnemyRigid: {fileID: 7545080068343672074}
-  chaseDistance: 6
+  chaseDistance: 10
   hitSound: {fileID: 8300000, guid: 7b0016eb0fc576347bd82ee60441ea1b, type: 3}
   isFacingRight: 0
   AttackPos: {fileID: 4074256198128647489}
@@ -224,7 +224,7 @@ MonoBehaviour:
     m_Bits: 64
   attackRangeX: 1.3
   attackRangeY: 1.3
-  EnemyDamage: 5
+  EnemyDamage: 10
   AttackCooldown_J: 3
   AttackCooldown_1: 10
   AttackCooldown_2: 15
@@ -371,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.01, y: 0.492}
+  m_AnchoredPosition: {x: -0.21, y: 0.51}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3854975176315662686

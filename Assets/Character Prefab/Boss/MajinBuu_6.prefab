@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4907444256609739384}
   - component: {fileID: 1343083281210188782}
   m_Layer: 8
-  m_Name: BlackGoku
+  m_Name: MajinBuu_6
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -1221829958, guid: 4a093b007d3d0014588187cb7827a0e8, type: 3}
+  m_Sprite: {fileID: 1451499612, guid: 292f7f9ad021e4342840d9710b4b092d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0384616, y: 1.9615384}
+    oldSize: {x: 1.0714285, y: 1.9285715}
     newSize: {x: 6.25, y: 6.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -173,7 +173,7 @@ Animator:
   m_GameObject: {fileID: 4241782396054630845}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7261c25572cc42e4c81a95900499f074, type: 2}
+  m_Controller: {fileID: 9100000, guid: c1d41196824e9d5458b547c1004279ab, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -212,10 +212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2b5903b6095d34698ed27f47140f22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 3
   EnemyAnim: {fileID: 2175033273354902409}
   EnemyRigid: {fileID: 7545080068343672074}
-  chaseDistance: 6
+  chaseDistance: 10
   hitSound: {fileID: 8300000, guid: 7b0016eb0fc576347bd82ee60441ea1b, type: 3}
   isFacingRight: 0
   AttackPos: {fileID: 4074256198128647489}
@@ -228,7 +228,7 @@ MonoBehaviour:
   AttackCooldown_J: 3
   AttackCooldown_1: 10
   AttackCooldown_2: 15
-  Bullet_Boss: {fileID: 8839176758555842493, guid: abfe6bb76c7078b439a569d893f5efa8, type: 3}
+  Bullet_Boss: {fileID: 5672970425149066960, guid: f12ca1cc608e98547be7235794cdf1be, type: 3}
 --- !u!1 &5204194177279340827
 GameObject:
   m_ObjectHideFlags: 0

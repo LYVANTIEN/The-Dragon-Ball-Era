@@ -350,9 +350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HPbox: {fileID: 7792545509257533981}
-  CurrentHP: 15
-  MaxHP: 15
-  speed: 3
+  CurrentHP: 35
+  MaxHP: 35
+  speed: 4
   EnemyAnim: {fileID: 8340290505476073488}
   EnemyRigid: {fileID: 3913718948973030477}
   chaseDistance: 6
