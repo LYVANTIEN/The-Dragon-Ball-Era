@@ -37392,6 +37392,9 @@ MonoBehaviour:
   WhatIsMapItem:
     serializedVersion: 2
     m_Bits: 128
+  WhatIsBoss:
+    serializedVersion: 2
+    m_Bits: 0
   attackRangeX: 1.2
   attackRangeY: 1.4
   PlayerDamage: 2

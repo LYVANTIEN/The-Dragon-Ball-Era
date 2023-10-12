@@ -156,7 +156,7 @@ public class Playerplay : MonoBehaviour
         //-----------------------------------------
         if (Input.GetKeyDown(KeyCode.K) == true && CooldownTimer_K > AttackCooldown_K)
         {
-            float ManaUse = 8;
+            float ManaUse = 5;
             if (ManaUse <= CurrentMP)
             {
                 CurrentMP -= ManaUse;
@@ -175,7 +175,7 @@ public class Playerplay : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.I) == true && CooldownTimer_I > AttackCooldown_I)
         {
-            float ManaUse = 12;
+            float ManaUse = 5;
             if (ManaUse <= CurrentMP)
             {
                 CurrentMP -= ManaUse;
@@ -304,7 +304,7 @@ public class Playerplay : MonoBehaviour
     // }
     IEnumerator PerformSuperAttack()
     {
-        float ManaUse = 85;
+        float ManaUse = 45;
         if (ManaUse <= CurrentMP)
         {
             CurrentMP -= ManaUse;

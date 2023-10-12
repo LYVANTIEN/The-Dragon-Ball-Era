@@ -280,7 +280,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.25, y: 3.40625}
+    oldSize: {x: 2.1176472, y: 3.2058823}
     newSize: {x: 2.25, y: 3.40625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -350,8 +350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HPbox: {fileID: 7792545509257533981}
-  CurrentHP: 15
-  MaxHP: 15
+  CurrentHP: 50
+  MaxHP: 50
   speed: 3
   EnemyAnim: {fileID: 8340290505476073488}
   EnemyRigid: {fileID: 3913718948973030477}
@@ -363,8 +363,8 @@ MonoBehaviour:
     m_Bits: 64
   attackRangeX: 1.2
   attackRangeY: 1.2
-  EnemyDamage: 15
-  AttackCooldown_J: 2.5
+  EnemyDamage: 30
+  AttackCooldown_J: 4
 --- !u!1 &4777435394698586047
 GameObject:
   m_ObjectHideFlags: 0

@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 22
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -121,7 +121,2842 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Majin Buu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1171
+        width: 1014
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b379a530c0c1149b887501e1fe4bff
+      internalID: 1207178110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1171
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b116ac8d8c38814d81741f13f40966a
+      internalID: -629903649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1171
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44406bc3bc6b3e849ae447f99453a5bf
+      internalID: 988415643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1171
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5037d195372155f429bb46b8ba5d90f1
+      internalID: 4517651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1170
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6394928ec58844085f0051c34aa7ca
+      internalID: 2133632575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1171
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ee19c7343a3849a5733222c42db75
+      internalID: 1139980613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1171
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc5948c6dfaf5d488332251c4ed2076
+      internalID: 220416252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1171
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9a16e090f0ab94badba761f1e34ef8
+      internalID: 937192074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_8
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1171
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364fa0e391e6f7248ad572769437c2e1
+      internalID: -1369179745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_9
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1171
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf56a308d38adb43b6bcecb5f639df0
+      internalID: 266960305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1171
+        width: 51
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a105641767ff847a46f5d38fe8f8d7
+      internalID: -1262298412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1171
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290fad5427f00f047a2cb632c3c7281f
+      internalID: 705650351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_12
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1171
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037eddb34b7f13a42bc309cba7d42d5f
+      internalID: 831430900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_13
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1171
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b44347e1b5796419bb98fcc02d2576
+      internalID: 513833045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_14
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1171
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d677dd98862544593e1a73031665c5
+      internalID: -867540579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1110
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00ac94f7b48e040b1ba05086f053b5
+      internalID: -1445523221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_16
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1110
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38acbbecae3567840a3080b31fe2b2bc
+      internalID: 1051549636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1110
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3c6d7ec3fe08c4fa2d16a8a8e509bb
+      internalID: 43802598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1134
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace33982a2f2bf344802bdc0e5a83155
+      internalID: -543821054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_19
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1110
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045265de329bd464584b1305aa467748
+      internalID: -2111605328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1110
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248e5d53eb516e4caeb7c26e936059e
+      internalID: -676568570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1110
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ecab14209ccbc44bc9be653efeb486
+      internalID: 697946123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1044
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67afc7d1b48fe6f43a6631e3af954bef
+      internalID: 731023376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1044
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6813c1cbfd271469d9d21d07d0d61c
+      internalID: -719955976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1044
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb34a2cbf1cbf54ab0267ea46c56409
+      internalID: 1130629646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1070
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065e163089ec6544a7f3d0d3f18750f
+      internalID: -667196915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1044
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14e03d526aeb8b43b43cdd45b2f791f
+      internalID: -2129843325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1068
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645e124cc731a6a43a6eebffde389f20
+      internalID: 855002040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1044
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde12ffa1fd517c448373c3a2a820c7e
+      internalID: 128930180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1047
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1218097df2925354d87f240421397dbc
+      internalID: 613945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 920
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d407377b933f24d81bcfd27fb27c03
+      internalID: -1768393664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 920
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bee8928c774fb84eaa1e1495bf476d5
+      internalID: 924072696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 920
+        width: 133
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2496f67989f0b1b4b95130d81e0f21cc
+      internalID: 1228150060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_33
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 920
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b34ec2558219f4db22deb03b7e089c
+      internalID: -57073851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_34
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 920
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5d6ccaacb2984c9dd9fd56c8ceca4
+      internalID: 1798120527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 945
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942611c32c38fcb4795e94902470843b
+      internalID: -1766970194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 920
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb42504a886524b4592a6c30bb5a13b3
+      internalID: 595149373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_37
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 920
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e595f93384955458473d754702bd09
+      internalID: -117774506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_38
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 920
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17303e3f98c55eb46a43216930ae3faa
+      internalID: -1435764583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_39
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 922
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9ab1b471008134cb0b1604bdd6910e
+      internalID: -658911295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_40
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 937
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bdbcda58d5d59449222515d7ff3b56
+      internalID: -1737099407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 835
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd94c68b1fc5b4780c5935326d6223
+      internalID: -1426135795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 835
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f27ee04f94b8044b305681845a3e14
+      internalID: 1323321660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 832
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb60d55759e014480402eed7c4038b
+      internalID: -2053335035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_44
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 835
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df22f9aa7614b0349b8c52f5d0472dd3
+      internalID: 891391390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_45
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 835
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d036598a85e0e3541b5bf6aa2ad9e16c
+      internalID: -2030774338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_46
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 835
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a9d26edec6fe943b2eef8fdf4828a5
+      internalID: 1386430524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_47
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 835
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3746fa42af27fc04e8145c9fdc5baa41
+      internalID: -655702954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_48
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 835
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eb958001f691a45a5e31117c49f82f
+      internalID: 2021343297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_49
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 835
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a97de4281e2414fb416a5ef1f6b055
+      internalID: 494873091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_50
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 835
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc79e2c71e19a0429a0aba55bb1a455
+      internalID: -514714233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_51
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 863
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b43863e0faa345964dbcf61cde282
+      internalID: -497190000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_52
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 859
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b1039efc154004f98ff2840861442d
+      internalID: 1573213581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_53
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 835
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a90200cbdc6d49b01761b5576ddbc
+      internalID: 331836169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_54
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 831
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503e0be66ddf9dd47bdf4cd22d14aa0c
+      internalID: 503990206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_55
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 861
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a3ba9f094d73949b4055d6b28cee5b
+      internalID: 1657260575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_56
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 859
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b53c2dc725bd374698aef86ccbbe5b1
+      internalID: -554750546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_57
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 831
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca887467357c44a9694b2f16971ebc
+      internalID: 792426890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_58
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 770
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fad7c1c22c1fa44f8f10ed47e282517
+      internalID: -309704086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 770
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6706261e6271a44abd7900e6a656ec
+      internalID: -107324951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_60
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 770
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf70f64bd084b04eb03e6e254b0cc26
+      internalID: 1196136192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_61
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 770
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe19e959bed970642b0f4d66ea2429b4
+      internalID: -91209732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_62
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 770
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee974f337319ce4e8ffb8ccbacbfe0f
+      internalID: -1041597546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_63
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 770
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00944028cb6ed294baf0caea7f2f315e
+      internalID: -1469841524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_64
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 770
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3e67745136f7b42b3cae83b322c9f8
+      internalID: -1153969064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_65
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 770
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c5f0201c182f45843e14ff0d6ce95
+      internalID: 490945604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_66
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 770
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26078c72ffdf584c905dcad93a7c8f3
+      internalID: -353017538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_67
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 770
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a3af065928ef84a9b455fb9297f9cf
+      internalID: 2457694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_68
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 770
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9c3f43445e9c24aa07521fc6d67460
+      internalID: -626514599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_69
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 694
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545fb7a088f3dc14aba8280af56ed102
+      internalID: 285915228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_70
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 688
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89b4063c13a5e46959556a84e5fe78
+      internalID: 1748477183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 686
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474a4274118e54f40a28f7cffb830ebc
+      internalID: -2145693406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_72
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 685
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbc5df0c4901dd4ba95fff5ef5475c2
+      internalID: -1733423509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_73
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 686
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1061e4e4c31e6b4ab9bb6214699f9b9
+      internalID: 1504904368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_74
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 685
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcb52ab97624c748acfda2e0e705f2f
+      internalID: -1515970657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_75
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 717
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232f70c3829e7c468b2e409a0a46dfe
+      internalID: -956348474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_76
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 694
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5474fa9a88e141541a20e5471411af4b
+      internalID: 168718213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_77
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 694
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b400dc9717e2f4844af21bc29a5e1bb5
+      internalID: 1749968691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_78
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 694
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282248c508283d84c9e393b409a4107a
+      internalID: 1931183334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_79
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 623
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f652e83f4bed0aa439988a22f7f49eb4
+      internalID: 995944999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_80
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 623
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c8ff4be903b2a4396d7149ced78a7b
+      internalID: 1294728841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 623
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12582764e51c7604bb39cbf13aefa701
+      internalID: 1000301407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 623
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba43d8517e540774bb056431c1e39505
+      internalID: 353601515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_83
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 623
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d005c75dbc985b43bd96787d5fbd913
+      internalID: -407616681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 547
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f181f7c0002d7a9498168d48a7b0fe48
+      internalID: 250516636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_85
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 547
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710f822cb4a13b42aa78b57bd745c66
+      internalID: 890866271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_86
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 547
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a738021aa815f0b40bc0e900150416ca
+      internalID: 446955929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_87
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 549
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f59bee6a7937c4394ae0cf31bb51ac
+      internalID: 74552506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_88
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 549
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39524ed249f3584280e968d95ebc00b
+      internalID: 1015656070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_89
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 544
+        width: 165
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cebbc96244408469e18a07b4ddb689
+      internalID: -256294090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_90
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 543
+        width: 165
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56bb46af9d29248871159e78be5a30
+      internalID: -1185567192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_91
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 479
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7250c575d5ac0224c83a404c97078e6a
+      internalID: -871631485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_92
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 479
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb37b531bde698d428b588e8c55d6931
+      internalID: -468424055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_93
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 479
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f426b15cca00e84dbf9e6ac32c1ab87
+      internalID: 37991629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_94
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 479
+        width: 155
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff81625830e6c448b4f82ab25b68a3
+      internalID: -1596334712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_96
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 454
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52758831ccb4b8749a57036648f781b2
+      internalID: 332501732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 389
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81144cef8a24545a08331fcc473750
+      internalID: -1694062838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_100
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 389
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2de5467a1a1c84b9f78022c094e1b4
+      internalID: 1073567508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_101
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 389
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bfc8aba9ad89140ac5ad18d4b553d4
+      internalID: 151970738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_102
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 389
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c31cdfbee3b744b9112b9ffd286543
+      internalID: 160340554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_103
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 389
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550a60295d01c249974001df5c263fb
+      internalID: 125570036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_104
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 389
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64101ea5218bbd846ac9cb4143bd7595
+      internalID: 1543567350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_105
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 385
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168cb62cde2c88247922ef5f3c7822d5
+      internalID: -628353944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_106
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 389
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c61ba9f68df5254ba0ae5d4071ea78c
+      internalID: -1625989993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_107
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 389
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352fa6bc4bdb9e74aa46b0d37c23e8d3
+      internalID: -1220693522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_108
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 418
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa416566607ea7449a6016c293419894
+      internalID: 476463200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_110
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 208
+        width: 172
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaca1b72d56c21f4998849d8f07fb72e
+      internalID: 1540336109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_111
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 208
+        width: 173
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fbddd9914aafe4893b85a83366bb58
+      internalID: -425109308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_112
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 336
+        width: 275
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73070b9213515e34a83eb6c06375873a
+      internalID: -298130322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_113
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 355
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed083b4b38d984448af627935014790
+      internalID: 766376333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_114
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 355
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69537b622103ed46967c550a1a82a65
+      internalID: 698331658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_116
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 248
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14c567e91898143a02e8f43cdae6b2
+      internalID: 327346633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_117
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 248
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e241e99c28592694484cb3f9e7e4b865
+      internalID: -1719833794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_118
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 148
+        width: 133
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785a9325166105f4098ee3cf279d79a1
+      internalID: -882949752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_119
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 148
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcafcbceb79676748be6102ca027be2e
+      internalID: 251722144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_121
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 139
+        width: 127
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259545899459c3c43ac911cf35404606
+      internalID: 1265737095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_123
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 85
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f948d5dcd33e07419dd1b34757c440d
+      internalID: 1222980581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_126
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6845f8ed2bdd03343a428e665ffbac16
+      internalID: -1120804010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_127
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 70
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2e213ae23280a429bea66db4cb623c
+      internalID: -1448985364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_128
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 69
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76180178f2c2956439f32d72eaab7325
+      internalID: 1118703365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_130
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 12
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69afde8981903bf4f9bcc434977ab7fa
+      internalID: -27721244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_133
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 41
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f34db0c918248a4c85503cf2a8d0b4b
+      internalID: 2076560012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_134
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 35
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db39a0719d3ae34dbdda9c48555bd7a
+      internalID: 847982722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_136
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 47
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b12a973092bffa48b0643d6e598d2e8
+      internalID: 624238827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_137
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 41
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2390256504d2979458eae9158bfc2939
+      internalID: 681488675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_138
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 41
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8124059078944d4a8923e9ddda26624
+      internalID: -1210614883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 26
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c9cb53cb14ce14898be863f300bbc5
+      internalID: -1332978619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_144
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 27
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab1569a8d366a4c9272849fdbcd878
+      internalID: 269384590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_145
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 28
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683023d46187fa84ba9026cde47aa403
+      internalID: 690949881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_147
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 26
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244c2ec76db4d3b45bf5f533354ec18f
+      internalID: 880033606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_148
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 11
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb43265853f05f44faaa33f23d6175db
+      internalID: -1913001813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_149
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 12
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf96b9e5e3606f24fb8866415e92d43b
+      internalID: -1247708652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_150
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 23
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bba8acd81ec5f4c9e671487fb80d9a
+      internalID: -1258478921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_95
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 430
+        width: 275
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660a72b1a55d7d743b4d711a71c7fe5c
+      internalID: 967833852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Majin Buu_97
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 10
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13272f974ad4ee4d811a71182b9f3c5
+      internalID: 562472217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +2967,158 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Majin Buu_0: 1207178110
+      Majin Buu_1: -629903649
+      Majin Buu_10: -1262298412
+      Majin Buu_100: 1073567508
+      Majin Buu_101: 151970738
+      Majin Buu_102: 160340554
+      Majin Buu_103: 125570036
+      Majin Buu_104: 1543567350
+      Majin Buu_105: -628353944
+      Majin Buu_106: -1625989993
+      Majin Buu_107: -1220693522
+      Majin Buu_108: 476463200
+      Majin Buu_109: -322077832
+      Majin Buu_11: 705650351
+      Majin Buu_110: 1540336109
+      Majin Buu_111: -425109308
+      Majin Buu_112: -298130322
+      Majin Buu_113: 766376333
+      Majin Buu_114: 698331658
+      Majin Buu_115: 849419399
+      Majin Buu_116: 327346633
+      Majin Buu_117: -1719833794
+      Majin Buu_118: -882949752
+      Majin Buu_119: 251722144
+      Majin Buu_12: 831430900
+      Majin Buu_120: 22012211
+      Majin Buu_121: 1265737095
+      Majin Buu_122: 879205012
+      Majin Buu_123: 1222980581
+      Majin Buu_124: 1352788352
+      Majin Buu_125: 1028680784
+      Majin Buu_126: -1120804010
+      Majin Buu_127: -1448985364
+      Majin Buu_128: 1118703365
+      Majin Buu_129: 281433043
+      Majin Buu_13: 513833045
+      Majin Buu_130: -27721244
+      Majin Buu_131: -2069989735
+      Majin Buu_132: -1408552561
+      Majin Buu_133: 2076560012
+      Majin Buu_134: 847982722
+      Majin Buu_135: 502955656
+      Majin Buu_136: 624238827
+      Majin Buu_137: 681488675
+      Majin Buu_138: -1210614883
+      Majin Buu_139: -1245108043
+      Majin Buu_14: -867540579
+      Majin Buu_140: 1541105744
+      Majin Buu_141: -709105896
+      Majin Buu_142: -2120706722
+      Majin Buu_143: -1332978619
+      Majin Buu_144: 269384590
+      Majin Buu_145: 690949881
+      Majin Buu_146: -1956764932
+      Majin Buu_147: 880033606
+      Majin Buu_148: -1913001813
+      Majin Buu_149: -1247708652
+      Majin Buu_15: -1445523221
+      Majin Buu_150: -1258478921
+      Majin Buu_16: 1051549636
+      Majin Buu_17: 43802598
+      Majin Buu_18: -543821054
+      Majin Buu_19: -2111605328
+      Majin Buu_2: 988415643
+      Majin Buu_20: -676568570
+      Majin Buu_21: 697946123
+      Majin Buu_22: 731023376
+      Majin Buu_23: -719955976
+      Majin Buu_24: 1130629646
+      Majin Buu_25: -667196915
+      Majin Buu_26: -2129843325
+      Majin Buu_27: 855002040
+      Majin Buu_28: 128930180
+      Majin Buu_29: 613945
+      Majin Buu_3: 4517651
+      Majin Buu_30: -1768393664
+      Majin Buu_31: 924072696
+      Majin Buu_32: 1228150060
+      Majin Buu_33: -57073851
+      Majin Buu_34: 1798120527
+      Majin Buu_35: -1766970194
+      Majin Buu_36: 595149373
+      Majin Buu_37: -117774506
+      Majin Buu_38: -1435764583
+      Majin Buu_39: -658911295
+      Majin Buu_4: 2133632575
+      Majin Buu_40: -1737099407
+      Majin Buu_41: -1426135795
+      Majin Buu_42: 1323321660
+      Majin Buu_43: -2053335035
+      Majin Buu_44: 891391390
+      Majin Buu_45: -2030774338
+      Majin Buu_46: 1386430524
+      Majin Buu_47: -655702954
+      Majin Buu_48: 2021343297
+      Majin Buu_49: 494873091
+      Majin Buu_5: 1139980613
+      Majin Buu_50: -514714233
+      Majin Buu_51: -497190000
+      Majin Buu_52: 1573213581
+      Majin Buu_53: 331836169
+      Majin Buu_54: 503990206
+      Majin Buu_55: 1657260575
+      Majin Buu_56: -554750546
+      Majin Buu_57: 792426890
+      Majin Buu_58: -309704086
+      Majin Buu_59: -107324951
+      Majin Buu_6: 220416252
+      Majin Buu_60: 1196136192
+      Majin Buu_61: -91209732
+      Majin Buu_62: -1041597546
+      Majin Buu_63: -1469841524
+      Majin Buu_64: -1153969064
+      Majin Buu_65: 490945604
+      Majin Buu_66: -353017538
+      Majin Buu_67: 2457694
+      Majin Buu_68: -626514599
+      Majin Buu_69: 285915228
+      Majin Buu_7: 937192074
+      Majin Buu_70: 1748477183
+      Majin Buu_71: -2145693406
+      Majin Buu_72: -1733423509
+      Majin Buu_73: 1504904368
+      Majin Buu_74: -1515970657
+      Majin Buu_75: -956348474
+      Majin Buu_76: 168718213
+      Majin Buu_77: 1749968691
+      Majin Buu_78: 1931183334
+      Majin Buu_79: 995944999
+      Majin Buu_8: -1369179745
+      Majin Buu_80: 1294728841
+      Majin Buu_81: 1000301407
+      Majin Buu_82: 353601515
+      Majin Buu_83: -407616681
+      Majin Buu_84: 250516636
+      Majin Buu_85: 890866271
+      Majin Buu_86: 446955929
+      Majin Buu_87: 74552506
+      Majin Buu_88: 1015656070
+      Majin Buu_89: -256294090
+      Majin Buu_9: 266960305
+      Majin Buu_90: -1185567192
+      Majin Buu_91: -871631485
+      Majin Buu_92: -468424055
+      Majin Buu_93: 37991629
+      Majin Buu_94: -1596334712
+      Majin Buu_95: 967833852
+      Majin Buu_96: 332501732
+      Majin Buu_97: 562472217
+      Majin Buu_98: 962835694
+      Majin Buu_99: -1694062838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

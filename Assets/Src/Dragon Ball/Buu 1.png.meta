@@ -1,0 +1,2413 @@
+fileFormatVersion: 2
+guid: 5cc8699815523064b960508c7f70131f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buu_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1170
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f40238ef270446b2a4045b06379ac
+      internalID: 1451499612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1170
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bdd7bfb54dbf646851ad388001e425
+      internalID: -1247510190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1170
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c50b41e61c051346b5ca304b5628d0e
+      internalID: -616133869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1170
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84684fe5ff7d2b4a8ea933dd495002b
+      internalID: 378245865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1170
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7e70d59dfe23148bba3cbf0b7592cc
+      internalID: -1960219028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1170
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69c3b9d5942324e9ba4930a1c5f472
+      internalID: -279843298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1192
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe18f4d059911e4b94ffc5c952eef80
+      internalID: 632649395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1170
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96daa539c89bf324890be577093b4af5
+      internalID: 2138412265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1170
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3243d8fcb328949ad969f1ec072d53
+      internalID: 834527661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1112
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a939a53d93ab2646a181ef89eb2f196
+      internalID: -429838793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1112
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507cc26be463a564084d7a057154cfba
+      internalID: -1400873488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1112
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cd4eea917142045a8f012448ec9b38
+      internalID: -1725682658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1112
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac3ad6672448914b80fb81142687518
+      internalID: 729423069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1112
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e82d202914edb408a5ad91ed972ea1
+      internalID: -2050327584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_16
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1112
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11d509bbb2f22a4ba24b2087ec57140
+      internalID: 2038029780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_17
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1112
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688feaf87f9bb954496ef9a44761cba4
+      internalID: -1210672183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1112
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099f183ba4e36e24e9245a98b5762c64
+      internalID: 1713427207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1112
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5970edc6b5ab74fb6712d43fa16d2a
+      internalID: -660928090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1112
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cc0090a572b7c45b3d8f1b56770a6b
+      internalID: 255765599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1038
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9acbb2e45edc9d45b6f56f4d0625d68
+      internalID: 243104127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1038
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467db17be1f19cc43861f802f3b969fb
+      internalID: -1781841742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_28
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1038
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e90071c91b28be499aa58332ccab8ce
+      internalID: 2058681041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1037
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340f9d99b494b3045adfeacd73601869
+      internalID: 302279154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_30
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1059
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345ae12652c0dcf46886ea4efe3332ae
+      internalID: 1489143107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1038
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba3c8940f5b0dc4399b6ff97a80de80
+      internalID: -1484918134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1059
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c31129dca4a9e54a8d9e83ba4325552
+      internalID: 1791024715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_33
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1038
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7788e11a3797eec4cbcffe8a606752e0
+      internalID: -135714094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_34
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1038
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb06c983d1af1245bd9a9eae4b1581b
+      internalID: -308957466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1038
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95d69c3dfe578f43b65860ebb8bd5a8
+      internalID: 1370617038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_36
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1024
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc0c0962e6ac174f98614de37f7f524
+      internalID: 29209747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_37
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 974
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5df4fe16cccc74fb5bc36ffea4b3b9
+      internalID: -1053247401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_38
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 981
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21ec7b4ce45dcd41996b1ee83a72132
+      internalID: 181003267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 981
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2671ec714e4d8fa458035b2ad1397248
+      internalID: 1582711738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 974
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261a289ce2e5f7348a568746796cb410
+      internalID: -911745813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_41
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 974
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38b1cc5849cf5e4c877792e74b3f95a
+      internalID: 42295260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_42
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 974
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015cf2f5de3320e41ab72f23bac214a9
+      internalID: 197278067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 974
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e8d6a6282244144a7692bed8de93ec
+      internalID: -498099750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_44
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 974
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc1d35ebc0e8f4ba2cb2032239e785
+      internalID: -2081537840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_45
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 974
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160d536290bbb844da525ecdb252abfd
+      internalID: 2036154062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_46
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 974
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0d18ad7ac43a94b8f12ec9a58ef33a
+      internalID: -1974821607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_47
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 974
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d561fb22833314ebde222250b66c6a
+      internalID: 1649093147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_48
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 974
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fba108b383a75f469a053cd01772433
+      internalID: -1955497248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607df16353c494c4781745af9eb45ba4
+      internalID: -1609835983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_50
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 902
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570ed15f5a8bd9145b6213db34b550d7
+      internalID: 978657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 902
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7036728bf7779a34d989ad10d57b47c9
+      internalID: 600927464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 902
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b560758febec414b80f9788e7831165
+      internalID: -257274426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_54
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 902
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333abde7ea80da540846d4886139e20b
+      internalID: 1387909047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_55
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 902
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d92b657f1a3b0243bcc2465287bd1a9
+      internalID: -233428546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_56
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 902
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580b9f5fc82478e4888dbcd18919a58c
+      internalID: -673176843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_57
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 902
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5880a8af2a6d5f4f9c098fed05c447b
+      internalID: -1626490685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_58
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 885
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4ed9d0fb9856041a4b2ba1430c92ea
+      internalID: -1477342866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_60
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 902
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f025f5ffc4dcb48a579c176acc825c
+      internalID: 1716923499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_61
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5314340422bf9ef4583cd3685e2df0f1
+      internalID: 682267567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_62
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 902
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d384c88ccae7d458a788ba983dc605
+      internalID: -1293741003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 806
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89942faa4863102409649a28ff1542f7
+      internalID: -1880237293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_65
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 806
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1026e565b9fd4da43b25f76d2ff2fb2a
+      internalID: 982077371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 806
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29991a8909229884d8f8c484b3093097
+      internalID: 325951624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_67
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 806
+        width: 63
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6328acca2b48bb1438b93cda9318f778
+      internalID: 1008925994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_69
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 806
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76ab9ed1a4ef604ea5c117a54407864
+      internalID: -279842181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_72
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 815
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5276a0c04912774caba82bbc84ca0eb
+      internalID: 450003455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_73
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 721
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb6c0b18a4efe42834e2f015b88cff
+      internalID: -1030973369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_74
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 721
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6665416116bbfaa41848bf5a35b3ee34
+      internalID: -906273975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_75
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 721
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde1e79d0d7276345a4b1afcf9c68ab5
+      internalID: 145887791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_76
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 721
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4a1422d2892ca49a5458aad743d552
+      internalID: 473041555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_77
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 719
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977962ba1c3ab004fa8d34cfc777d207
+      internalID: 511369859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_78
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 716
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc837d0dd75c3d439a209d9fd56eaec
+      internalID: 1158280340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_79
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 714
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86210e9718b1bbf47a049b5292597eab
+      internalID: 501818307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_80
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 721
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1e161683ccc354597ffdbcdc84e775
+      internalID: 972502819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_81
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 721
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d295164b38822104d8243b839ad42701
+      internalID: -927228630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_82
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 686
+        width: 266
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3585023a3008c1488152a5b86a5ef69
+      internalID: 278099997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_83
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 639
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aab5b0e9c6a144f86fb3c3ab47baa7
+      internalID: 84067496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_84
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 639
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c0d8842e8eca428d3edd373a5ef1d
+      internalID: -136569421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_85
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 589
+        width: 107
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03360bba24be0554d804f223fd372f05
+      internalID: -351891964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_86
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 529
+        width: 175
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc60080724176b49aeb270df558a971
+      internalID: 1969853535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_92
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 420
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c9d1e6896266d479df2670dbc5d637
+      internalID: -2110437943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_93
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 420
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc5e4f8ebc580046bde11d8fe64f054
+      internalID: 208101624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_94
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 419
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db7c402769732c46ac2d5ab9f85fc3a
+      internalID: -2145759039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_95
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 420
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544efc6da4b4f9a4587f0da01b8e95d0
+      internalID: 1193456883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_96
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 420
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a19967f2cc2b548b166f7a6350982d
+      internalID: -1985120966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_97
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 420
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d30a0adeb7fd458f770e4805f1648
+      internalID: -1091787251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_129
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 332
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fa644b429994745b0db45d96e5c1d3
+      internalID: -1438334485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_131
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 206
+        width: 299
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83424e8e4aa2b7e41806a63136758008
+      internalID: -72480118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_133
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 284
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefb850091ce48648845bd553f3a0648
+      internalID: 1662782012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_135
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 284
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c102f6f01f605584487d52f0bfc2857f
+      internalID: 1282456482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_139
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 239
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7239421044a66943a9f6269ee4cf741
+      internalID: 386707847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_142
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 59
+        width: 65
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0247657ea817141b61c402affb69cc
+      internalID: -629340093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_143
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 59
+        width: 75
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ec13ef3768b3f4aa30a7184cea3ee8
+      internalID: 397922522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_144
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 43
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643b8c1691196d4bb9b483207642aa3
+      internalID: 1503306475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_145
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 19
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f2f0da23171ea49a2b74c382130719
+      internalID: 886516870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_146
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 17
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7caf0ea8071994f9292bda67ac2472
+      internalID: -454321731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_147
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 59
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435631bfa8fd059489cbc6c9d931fe97
+      internalID: -278822933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_148
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 59
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd34af31b90692340b230ff0c4ff4ae6
+      internalID: 1990082932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_149
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 59
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e8bc2dc970324583220b4d28a5ba2
+      internalID: 7323282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_151
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 59
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7452cb0179a384b46b0eb5caba10fa12
+      internalID: 1510418441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_13
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1101
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2333975b92e9c84e9ae903b39d8b440
+      internalID: 1791510578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_20
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1104
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e768f4c31b2c5478753cbfce5cf2a3
+      internalID: 1695116393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 786
+        width: 114
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db8e7da95ed8fe46877a7c36e2f3c20
+      internalID: -1853232572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_22
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 369
+        width: 95
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f3f282f0a3b449969dd2a34558c12
+      internalID: 216384172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 101
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9a31b9f80deb43b029a5fb56db133
+      internalID: 2114654969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_25
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 214
+        width: 91
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3ccdf0ef2a62f4c90d31a59c0a3424
+      internalID: -926600664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buu_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 53
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad756aea67287fe448dc48059628d5ed
+      internalID: 694092857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Buu_0: 1451499612
+      Buu_1: -1247510190
+      Buu_10: -429838793
+      Buu_100: -63744287
+      Buu_101: 593733771
+      Buu_102: 1802862056
+      Buu_103: 387972919
+      Buu_104: -1108736596
+      Buu_105: 40523210
+      Buu_106: 1036095067
+      Buu_107: 1667312110
+      Buu_108: -264221181
+      Buu_109: 1800599658
+      Buu_11: -1400873488
+      Buu_110: 185716407
+      Buu_111: -585521717
+      Buu_112: 1588593498
+      Buu_113: 1966572460
+      Buu_114: 1815320475
+      Buu_115: 2097291084
+      Buu_116: 2083944854
+      Buu_117: 1142830595
+      Buu_118: -1283524954
+      Buu_119: -35635209
+      Buu_12: -1725682658
+      Buu_120: 1091076039
+      Buu_121: 432605468
+      Buu_122: 505158218
+      Buu_123: -1474021113
+      Buu_124: 1473788456
+      Buu_125: 346728848
+      Buu_126: -55147393
+      Buu_127: 1007585364
+      Buu_128: 1093430396
+      Buu_129: -1438334485
+      Buu_13: 1791510578
+      Buu_130: 1620750039
+      Buu_131: -72480118
+      Buu_132: 662915162
+      Buu_133: 1662782012
+      Buu_134: 1736831142
+      Buu_135: 1282456482
+      Buu_136: 2106953253
+      Buu_137: -649967866
+      Buu_138: -668140239
+      Buu_139: 386707847
+      Buu_14: 729423069
+      Buu_140: -369882395
+      Buu_141: -102933225
+      Buu_142: -629340093
+      Buu_143: 397922522
+      Buu_144: 1503306475
+      Buu_145: 886516870
+      Buu_146: -454321731
+      Buu_147: -278822933
+      Buu_148: 1990082932
+      Buu_149: 7323282
+      Buu_15: -2050327584
+      Buu_150: 54672395
+      Buu_151: 1510418441
+      Buu_16: 2038029780
+      Buu_17: -1210672183
+      Buu_18: 1713427207
+      Buu_19: -660928090
+      Buu_2: -616133869
+      Buu_20: 1695116393
+      Buu_21: -1853232572
+      Buu_22: 216384172
+      Buu_23: 255765599
+      Buu_24: 2114654969
+      Buu_25: -926600664
+      Buu_26: 243104127
+      Buu_27: -1781841742
+      Buu_28: 2058681041
+      Buu_29: 302279154
+      Buu_3: 378245865
+      Buu_30: 1489143107
+      Buu_31: -1484918134
+      Buu_32: 1791024715
+      Buu_33: -135714094
+      Buu_34: -308957466
+      Buu_35: 1370617038
+      Buu_36: 29209747
+      Buu_37: -1053247401
+      Buu_38: 181003267
+      Buu_39: 1582711738
+      Buu_4: -1960219028
+      Buu_40: -911745813
+      Buu_41: 42295260
+      Buu_42: 197278067
+      Buu_43: -498099750
+      Buu_44: -2081537840
+      Buu_45: 2036154062
+      Buu_46: -1974821607
+      Buu_47: 1649093147
+      Buu_48: -1955497248
+      Buu_49: -1609835983
+      Buu_5: -279843298
+      Buu_50: 978657662
+      Buu_51: 600927464
+      Buu_52: -257274426
+      Buu_53: -294994514
+      Buu_54: 1387909047
+      Buu_55: -233428546
+      Buu_56: -673176843
+      Buu_57: -1626490685
+      Buu_58: -1477342866
+      Buu_59: -1826339480
+      Buu_6: 632649395
+      Buu_60: 1716923499
+      Buu_61: 682267567
+      Buu_62: -1293741003
+      Buu_63: -252021047
+      Buu_64: -1880237293
+      Buu_65: 982077371
+      Buu_66: 325951624
+      Buu_67: 1008925994
+      Buu_68: 694092857
+      Buu_69: -279842181
+      Buu_7: 2138412265
+      Buu_70: 584315279
+      Buu_71: -1354128200
+      Buu_72: 450003455
+      Buu_73: -1030973369
+      Buu_74: -906273975
+      Buu_75: 145887791
+      Buu_76: 473041555
+      Buu_77: 511369859
+      Buu_78: 1158280340
+      Buu_79: 501818307
+      Buu_8: 834527661
+      Buu_80: 972502819
+      Buu_81: -927228630
+      Buu_82: 278099997
+      Buu_83: 84067496
+      Buu_84: -136569421
+      Buu_85: -351891964
+      Buu_86: 1969853535
+      Buu_87: -204977521
+      Buu_88: -2087271618
+      Buu_89: -909136394
+      Buu_9: 1255734345
+      Buu_90: 1273029137
+      Buu_91: 428029705
+      Buu_92: -2110437943
+      Buu_93: 208101624
+      Buu_94: -2145759039
+      Buu_95: 1193456883
+      Buu_96: -1985120966
+      Buu_97: -1091787251
+      Buu_98: -1781832187
+      Buu_99: -1192690044
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
