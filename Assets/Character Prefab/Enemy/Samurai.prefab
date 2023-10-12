@@ -303,7 +303,7 @@ MonoBehaviour:
   speed: 4
   EnemyAnim: {fileID: 4432255900967751670}
   EnemyRigid: {fileID: 8171817549174855765}
-  chaseDistance: 6
+  chaseDistance: 4
   hitSound: {fileID: 8300000, guid: 7b0016eb0fc576347bd82ee60441ea1b, type: 3}
   AttackPos: {fileID: 2609916744157470524}
   WhatIsPlayer:

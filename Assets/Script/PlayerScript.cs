@@ -68,7 +68,7 @@ public class Playerplay : MonoBehaviour
     // Button U
     private float AttackCooldown_U = 15f;
     private float CooldownTimer_U = Mathf.Infinity;
-    private float AttackCooldown_O = 10f;
+    private float AttackCooldown_O = 15f;
     private float CooldownTimer_O = Mathf.Infinity;
 
     private NPC_Controller npc;
