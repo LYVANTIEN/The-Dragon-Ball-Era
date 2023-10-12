@@ -350,9 +350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HPbox: {fileID: 7792545509257533981}
-  CurrentHP: 40
-  MaxHP: 40
-  speed: 5
+  CurrentHP: 15
+  MaxHP: 15
+  speed: 3
   EnemyAnim: {fileID: 8340290505476073488}
   EnemyRigid: {fileID: 3913718948973030477}
   chaseDistance: 6
@@ -363,8 +363,8 @@ MonoBehaviour:
     m_Bits: 64
   attackRangeX: 1.1
   attackRangeY: 1.1
-  EnemyDamage: 5
-  AttackCooldown_J: 1.5
+  EnemyDamage: 15
+  AttackCooldown_J: 2.5
 --- !u!1 &4777435394698586047
 GameObject:
   m_ObjectHideFlags: 0

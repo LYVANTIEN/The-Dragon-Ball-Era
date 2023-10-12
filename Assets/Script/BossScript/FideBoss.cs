@@ -10,7 +10,6 @@ public class FideBoss : MonoBehaviour
     public float CurrentHP;
     public float MaxHP = 30;
     public Animator EnemyAnim;
-    public GameObject DragonBall;
 
     void Start()
     {
@@ -31,7 +30,6 @@ public class FideBoss : MonoBehaviour
             EnemyAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
             gameObject.SetActive(false);
-            DragonBall.SetActive(true);
         }
     }
     public void TakeDamage(int damage)
