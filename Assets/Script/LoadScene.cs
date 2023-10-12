@@ -9,11 +9,20 @@ public class LoadScene : MonoBehaviour
     public float DelaySecond = 2f;
     public string nameScene;
     public Playerplay Player;
+    public bool nextmap = false;
+    void Update()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
+        if (enemies.Length == 0)
+        {
+            nextmap = true;
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && nextmap == true)
         {
             Player.PlayerNextMap();
             ModeSelect();
