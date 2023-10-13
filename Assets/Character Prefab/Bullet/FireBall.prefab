@@ -205,9 +205,12 @@ MonoBehaviour:
   WhatIsMapItem:
     serializedVersion: 2
     m_Bits: 128
+  WhatIsBoss:
+    serializedVersion: 2
+    m_Bits: 0
   attackRangeX: 1
   attackRangeY: 0.7
-  BulletDamage: 10
+  BulletDamage: 20
 --- !u!1 &2053810479748951237
 GameObject:
   m_ObjectHideFlags: 0

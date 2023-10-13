@@ -235,5 +235,5 @@ MonoBehaviour:
     m_Bits: 64
   attackRangeX: 1
   attackRangeY: 0.7
-  BossBulletDamage: 30
+  BossBulletDamage: 25
   DestroyTime: 2

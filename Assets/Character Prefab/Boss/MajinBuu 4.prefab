@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 1006017657159453796}
   - component: {fileID: 7189005090170323771}
   m_Layer: 8
-  m_Name: MajinBuu 1_5
+  m_Name: MajinBuu 4
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,7 +532,7 @@ MonoBehaviour:
   EnemyDamage: 5
   AttackCooldown_J: 3
   AttackCooldown_1: 10
-  AttackCooldown_2: 15
+  AttackCooldown_2: 10
   Bullet_Boss: {fileID: 5672970425149066960, guid: f12ca1cc608e98547be7235794cdf1be, type: 3}
 --- !u!1 &6729859181495731488
 GameObject:

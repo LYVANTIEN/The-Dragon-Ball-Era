@@ -333,6 +333,7 @@ MonoBehaviour:
   CurrentHP: 300
   MaxHP: 300
   EnemyAnim: {fileID: 3960220062203697613}
+  DragonBall: {fileID: 0}
 --- !u!114 &2988302749203888599
 MonoBehaviour:
   m_ObjectHideFlags: 0

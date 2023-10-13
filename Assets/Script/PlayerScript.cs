@@ -31,8 +31,10 @@ public class Playerplay : MonoBehaviour
     public bool canJump;
     public bool canDoubleJump;
 
+
     public AudioClip hitSound;
     public AudioClip jumpSound;
+    public AudioClip KameSound;
 
 
 
@@ -311,7 +313,7 @@ public class Playerplay : MonoBehaviour
             MPbox.updateMP(CurrentMP, MaxMP);
             int skillDamage = 10;
             anim.SetTrigger("SuperAttack");
-            SoundManager.instance.playSound(hitSound);
+            SoundManager.instance.playSound(KameSound);
 
             yield return new WaitForSeconds(1.0f); // Wait for 1 second
 
