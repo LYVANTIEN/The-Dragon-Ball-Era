@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Bits: 128
   WhatIsBoss:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   attackRangeX: 1
   attackRangeY: 0.7
   BulletDamage: 20
