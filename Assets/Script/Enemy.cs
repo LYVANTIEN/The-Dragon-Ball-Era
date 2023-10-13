@@ -123,7 +123,7 @@ public class Enemy : MonoBehaviour
         if (CurrentHP <= 0)
         {
             EnemyAnim.SetTrigger("Die");
-            yield return new WaitForSeconds(1.5f); // Wait for 1 second
+            yield return new WaitForSeconds(0.75f); // Wait for 1 second
             gameObject.SetActive(false);
         }
     }

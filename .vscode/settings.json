@@ -52,5 +52,6 @@
         "temp/":true,
         "Temp/":true
     },
-    "dotnet.defaultSolution": "The-Dragon-Ball-Era.sln"
+    "dotnet.defaultSolution": "The-Dragon-Ball-Era.sln",
+    "dotnet.preferCSharpExtension": true
 }

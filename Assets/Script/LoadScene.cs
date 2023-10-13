@@ -17,6 +17,7 @@ public class LoadScene : MonoBehaviour
         if (enemies.Length == 0)
         {
             nextmap = true;
+            
         }
     }
 
