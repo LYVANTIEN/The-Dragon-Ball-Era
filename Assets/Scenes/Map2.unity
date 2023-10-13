@@ -8060,7 +8060,7 @@ MonoBehaviour:
   canDoubleJump: 0
   hitSound: {fileID: 8300000, guid: 50faf363e56e2c84089e56b07b609bf6, type: 3}
   jumpSound: {fileID: 8300000, guid: 77133b69c8b5cd24e88500a1d6dfc62c, type: 3}
-  KameSound: {fileID: 0}
+  KameSound: {fileID: 8300000, guid: e0d8bb538f9984443877e52429fc7951, type: 3}
   AttackPos: {fileID: 1701168545}
   WhatIsEnemies:
     serializedVersion: 2
