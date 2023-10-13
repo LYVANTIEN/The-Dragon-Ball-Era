@@ -30,6 +30,7 @@ public class FideBoss : MonoBehaviour
         {
             EnemyAnim.SetTrigger("Die");
             yield return new WaitForSeconds(1.5f); // Wait for 1 second
+            DragonBall.transform.position = transform.position;
             gameObject.SetActive(false);
             DragonBall.SetActive(true);
         }
