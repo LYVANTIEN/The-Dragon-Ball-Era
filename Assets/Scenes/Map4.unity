@@ -1222,7 +1222,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 14
   m_Sprite: {fileID: -570579807, guid: da751224b6a6df342abff62f0822de83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -44083,6 +44083,7 @@ GameObject:
   - component: {fileID: 6616194478462118469}
   - component: {fileID: 5178415438456734838}
   - component: {fileID: 6531813491907196938}
+  - component: {fileID: 6957933091960855348}
   m_Layer: 0
   m_Name: Map4
   m_TagString: Untagged
@@ -44090,6 +44091,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6957933091960855348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6957933091960855347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04db3d34b50f8ff4eadad005c273be9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapSound: {fileID: 8300000, guid: 64397863e67571f4cb9b5e8fd192652b, type: 3}
 --- !u!4 &6970688777129605846
 Transform:
   m_ObjectHideFlags: 0

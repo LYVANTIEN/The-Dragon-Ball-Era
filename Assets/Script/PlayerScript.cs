@@ -97,7 +97,17 @@ public class Playerplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.F2) == true)
+        {
+            anim.SetTrigger("Attack3");
+            PlayerDamage = 100;
+            speed = 10;
+        }
+        if (Input.GetKeyDown(KeyCode.F5) == true)
+        {
+            CurrentHP = 0;
+            PlayerDie();
+        }
         if (!inDialogue())
         {
             Move();
@@ -283,7 +293,7 @@ public class Playerplay : MonoBehaviour
 
                 // Truyền giá trị isFacingRight vào script của viên đạn
                 bulletScript.Initialize(isFacingRight);
-                
+
                 CooldownTimer_L = 0;
             }
         }
@@ -436,6 +446,7 @@ public class Playerplay : MonoBehaviour
             canJump = true;
         }
     }
+
 
 
     private void OnTriggerStay2D(Collider2D collision)

@@ -2579,7 +2579,7 @@ MonoBehaviour:
     m_Bits: 256
   attackRangeX: 1.2
   attackRangeY: 1.4
-  PlayerDamage: 8
+  PlayerDamage: 5
   cooldownIcon_J: {fileID: 3628081381501266755}
   cooldownIcon_K: {fileID: 8890804179850057885}
   cooldownIcon_I: {fileID: 1312677432156535643}
@@ -10197,6 +10197,10 @@ PrefabInstance:
     - target: {fileID: 1520352108906877040, guid: 1511757d92951e944a0e8806353d82eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927887461826895891, guid: 1511757d92951e944a0e8806353d82eb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5636026205182543252, guid: 1511757d92951e944a0e8806353d82eb, type: 3}
       propertyPath: Player
@@ -51205,5 +51209,5 @@ SceneRoots:
   - {fileID: 1631473008}
   - {fileID: 853412992}
   - {fileID: 605463783}
-  - {fileID: 2749474624128711921}
   - {fileID: 436926925}
+  - {fileID: 2749474624128711921}

@@ -350,8 +350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HPbox: {fileID: 7792545509257533981}
-  CurrentHP: 40
-  MaxHP: 40
+  CurrentHP: 30
+  MaxHP: 30
   speed: 5
   EnemyAnim: {fileID: 8340290505476073488}
   EnemyRigid: {fileID: 3913718948973030477}
