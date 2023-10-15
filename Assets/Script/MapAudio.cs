@@ -12,7 +12,7 @@ public class MapAudio : MonoBehaviour
     {
         Audio = gameObject.AddComponent<AudioSource>(); // Add AudioSource component
         Audio.clip = MapSound;
-        Audio.volume = 0.15f;
+        Audio.volume = 0.25f;
         Audio.Play();
 
         StartCoroutine(RepeatAudio());
