@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SaveManager : MonoBehaviour
 {
     //public GameObject PlayerTransform;
     public Playerplay Player;
 
+    //public Button buttonContinue;
+
+    // private void Start() {
+    //     buttonContinue.onClick.AddListener(() => {
+    //        SceneManager.LoadScene(PlayerPrefs.GetString("SceneName", "Map2"))      ;
+    //     });
+    // }
+
     public void SaveGame()
     {
+        PlayerPrefs.SetString("SceneName", SceneManager.GetActiveScene().name);
         PlayerPrefs.SetFloat("PlayerPosX", Player.transform.position.x);
         PlayerPrefs.SetFloat("PlayerPosY", Player.transform.position.y);
         PlayerPrefs.SetFloat("PlayerHP", Player.CurrentHP);
         PlayerPrefs.SetFloat("PlayerMP", Player.CurrentMP);
+        Debug.Log("Save!!! " + Player.transform.position.x);
 
         // Lưu các giá trị khác tương tự
         PlayerPrefs.Save();
