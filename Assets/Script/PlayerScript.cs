@@ -102,6 +102,7 @@ public class Playerplay : MonoBehaviour
             anim.SetTrigger("Attack3");
             PlayerDamage = 100;
             speed = 10;
+            flapchange= 20;
         }
         if (Input.GetKeyDown(KeyCode.F5) == true)
         {
