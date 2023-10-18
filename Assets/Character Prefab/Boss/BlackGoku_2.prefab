@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7545080068343672074}
   - component: {fileID: 2175033273354902409}
   - component: {fileID: 4907444256609739384}
-  - component: {fileID: 1343083281210188782}
+  - component: {fileID: 4926555214986060730}
   m_Layer: 8
   m_Name: BlackGoku_2
   m_TagString: Enemy
@@ -201,7 +201,7 @@ MonoBehaviour:
   MaxHP: 250
   EnemyAnim: {fileID: 2175033273354902409}
   DragonBall: {fileID: 0}
---- !u!114 &1343083281210188782
+--- !u!114 &4926555214986060730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4241782396054630845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b2b5903b6095d34698ed27f47140f22, type: 3}
+  m_Script: {fileID: 11500000, guid: a5c67e16b08a41c48957a08ccc842c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
@@ -229,7 +229,11 @@ MonoBehaviour:
   AttackCooldown_J: 3
   AttackCooldown_1: 10
   AttackCooldown_2: 10
-  Bullet_Boss: {fileID: 8839176758555842493, guid: abfe6bb76c7078b439a569d893f5efa8, type: 3}
+  AttackCooldown_Tele: 0
+  AttackCooldown_PU: 0
+  Player: {fileID: 0}
+  Bullet_Boss: {fileID: 8839176758555842493, guid: 51b1f1be1647c954f8b4bcebdaa4c34f, type: 3}
+  BossInfo: {fileID: 4907444256609739384}
 --- !u!1 &5204194177279340827
 GameObject:
   m_ObjectHideFlags: 0
