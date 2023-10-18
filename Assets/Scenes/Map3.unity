@@ -6106,6 +6106,7 @@ GameObject:
   - component: {fileID: 1046018935}
   - component: {fileID: 1046018934}
   - component: {fileID: 1046018938}
+  - component: {fileID: 1046018939}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -6231,6 +6232,18 @@ MonoBehaviour:
   nameScene: Menu
   Player: {fileID: 2141819346}
   nextmap: 0
+--- !u!114 &1046018939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046018932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af48d561a550b0f4aaad86123dec28b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1094855923
 GameObject:
   m_ObjectHideFlags: 0
@@ -10842,7 +10855,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810009366}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1046018939}
+        m_TargetAssemblyTypeName: SaveManager, Assembly-CSharp
+        m_MethodName: SaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1810009366
 MonoBehaviour:
   m_ObjectHideFlags: 0
