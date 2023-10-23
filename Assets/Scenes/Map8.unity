@@ -752,10 +752,14 @@ PrefabInstance:
     - target: {fileID: 4926555214986060730, guid: ca34b0305b92c284fb1a6144299115e3, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1134547055}
+      objectReference: {fileID: 1134547061}
+    - target: {fileID: 4926555214986060730, guid: ca34b0305b92c284fb1a6144299115e3, type: 3}
+      propertyPath: AttackCooldown_PU
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 4926555214986060730, guid: ca34b0305b92c284fb1a6144299115e3, type: 3}
       propertyPath: AttackCooldown_Tele
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41558,7 +41562,7 @@ MonoBehaviour:
   canDoubleJump: 0
   hitSound: {fileID: 8300000, guid: 50faf363e56e2c84089e56b07b609bf6, type: 3}
   jumpSound: {fileID: 8300000, guid: 77133b69c8b5cd24e88500a1d6dfc62c, type: 3}
-  KameSound: {fileID: 0}
+  KameSound: {fileID: 8300000, guid: e0d8bb538f9984443877e52429fc7951, type: 3}
   AttackPos: {fileID: 1973833367}
   WhatIsEnemies:
     serializedVersion: 2
@@ -49173,7 +49177,7 @@ GameObject:
   - component: {fileID: 4077920739910517449}
   - component: {fileID: 6296790471208703096}
   m_Layer: 0
-  m_Name: Map 1
+  m_Name: Map 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49483,7 +49487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04db3d34b50f8ff4eadad005c273be9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapSound: {fileID: 8300000, guid: 64397863e67571f4cb9b5e8fd192652b, type: 3}
+  MapSound: {fileID: 8300000, guid: dd7733f8a213bcb4c980fec009d90dbc, type: 3}
 --- !u!1 &6559511977164485556
 GameObject:
   m_ObjectHideFlags: 0

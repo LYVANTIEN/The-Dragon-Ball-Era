@@ -2327,7 +2327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af48d561a550b0f4aaad86123dec28b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1408860520}
 --- !u!1 &431622149
 GameObject:
   m_ObjectHideFlags: 0
@@ -44384,7 +44383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04db3d34b50f8ff4eadad005c273be9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MapSound: {fileID: 8300000, guid: 64397863e67571f4cb9b5e8fd192652b, type: 3}
+  MapSound: {fileID: 8300000, guid: dd7733f8a213bcb4c980fec009d90dbc, type: 3}
 --- !u!4 &7845967286905923294
 Transform:
   m_ObjectHideFlags: 0
