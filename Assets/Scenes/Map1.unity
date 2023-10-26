@@ -9222,6 +9222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vegito
       objectReference: {fileID: 0}
+    - target: {fileID: 6064595399957272141, guid: 873d2f885005d5044bf06322a235aed9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6068585767394432497, guid: 873d2f885005d5044bf06322a235aed9, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
